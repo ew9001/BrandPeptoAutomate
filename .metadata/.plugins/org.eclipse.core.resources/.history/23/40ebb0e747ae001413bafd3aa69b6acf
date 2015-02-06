@@ -190,10 +190,7 @@ public class AddCartTest {
 			  driver=browserIE11();
 			   csvFileToRead = data2;
 			}
-		  else if (browser.equals("browserIE10")) {
-			  driver=browserIE10();
-			   csvFileToRead = data2;
-			}
+		  
 
 		  else if (browser.equals("iPad")) {
 			  driver=browserIpad();
@@ -330,34 +327,6 @@ public class AddCartTest {
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
 	      driver.get("http://m.crest.com");
-	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-	      System.out.println(data);
-	      return driver;
-	   
-	    
-	      
-	 } 
-	 
-	 public WebDriver browserIE10() throws MalformedURLException  
-	 {  
-	  
-		 System.out.println("Let me run mobileGalaxyS3");
-		 String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
-		 DesiredCapabilities caps = new DesiredCapabilities();
-		 caps.setCapability("browser", "IE");
-		 caps.setCapability("browser_version", "11.0");
-		 caps.setCapability("os", "Windows");
-		 caps.setCapability("os_version", "7");
-		 caps.setCapability("resolution", "1024x768");
-		 caps.setCapability("browserstack.debug", "true");
-		 caps.setCapability("browserstack.local", "true");
-		 caps.setCapability("acceptSslCerts", "true");
-		    driver = new RemoteWebDriver(new URL(URL), caps);
-	      System.out.println("Let me run IE10");
-	      browser_type="browserIE10";
-	      System.out.println("Let me see which one get tested" +browser_type);
-	      System.out.println("Let me see which one get tested" +driver);
-	      driver.get("http://nhl.com");
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	      System.out.println(data);
 	      return driver;
