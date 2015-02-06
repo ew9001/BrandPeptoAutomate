@@ -739,7 +739,7 @@ public class AddCartTest {
 	 public WebDriver browserFirefox() throws MalformedURLException  
 	 {  
 	  
-		 browser_type="firefox";
+		 browser_type="chrome";
 		 String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 		 DesiredCapabilities caps = new DesiredCapabilities();
 		 caps.setCapability("browser", "Firefox");
