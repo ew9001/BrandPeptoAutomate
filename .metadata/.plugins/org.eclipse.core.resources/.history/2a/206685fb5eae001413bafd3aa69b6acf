@@ -410,7 +410,7 @@ public class AddCartTest {
 		 caps.setCapability("browserstack.local", "true");
 		 caps.setCapability("acceptSslCerts", "true");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
-	      System.out.println("Let me run Chrome 39 MAC OS");
+	      System.out.println("Let me run IE10");
 	      browser_type="browserChrome39";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
