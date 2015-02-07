@@ -284,20 +284,7 @@ public class AddCartTest {
 		        System.out.println("Image Name " +name);
 		        takeScreenPortrait(name);
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        driver.get("http://author.pepto-bismol.pgsitecore.com/en-us/shopping-cart");
-			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Cart-portrait.png";
-			        takeScreenPortrait(name);
-			        System.out.println("Image Name " +name);
-			        name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Cart-landscape.png";
-			        takeScreenLandscape(name);
-			        System.out.println("Image Name " +name);
-			        takeScreenPortrait(name);
-			        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		        
 		        
 		        if (browser.equals("mobileiPhone5S")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
@@ -314,7 +301,20 @@ public class AddCartTest {
 
 		      }
 	
-		 
+		 driver.get("http://author.pepto-bismol.pgsitecore.com/en-us/shopping-cart");
+	     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+	        takeScreenPortrait(name);
+	        System.out.println("Image Name " +name);
+	        name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
+	        takeScreenLandscape(name);
+	        System.out.println("Image Name " +name);
+	        takeScreenPortrait(name);
+	        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 	    	 driver.quit();   
 		
 	  }
