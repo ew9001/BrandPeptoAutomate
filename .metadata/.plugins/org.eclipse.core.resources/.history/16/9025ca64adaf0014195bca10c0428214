@@ -270,7 +270,13 @@ public class WriteReview {
 		      //  driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		     
 		      
-		
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+		        takeScreenPortrait(name);
+		        System.out.println("Image Name " +name);
+		        name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
+		        takeScreenLandscape(name);
+		        System.out.println("Image Name " +name);
+		        takeScreenPortrait(name);
 		       
 			        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 			        driver.findElement(By.id("lnkWriteReview")).click();
