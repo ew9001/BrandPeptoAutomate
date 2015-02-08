@@ -292,37 +292,7 @@ public class WriteReview {
 			        System.out.println("Image Name " +name);
 			        takeScreenPortrait(name);
 			        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-			        driver.findElement(By.id("lnkWriteReview")).click();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_imgRatingStars")).click();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductRating_rblControlForProductRating_0_0_0")).click();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).clear();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).sendKeys("QA 12345");
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).clear();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).sendKeys("SjwerjwerjwegwjegwegjkwegjlkjkjewgljewklgjewgkjwegklwegkjewgklwegjkewgjekwgjewklgjewkgjewlgjewgkwjegklewgjkewgewkgljewgljewgkjewgklwgjekwlgjewgljglwjgklwgklwgjewglgklwgjkwlgjewkljglewgjelwkgQ");
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).clear();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).sendKeys("12345");
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_1")).clear();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_1")).sendKeys("Brooklyn,NY");
-			        new Select(driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_ddlControl_2"))).selectByVisibleText("2");
-			        new Select(driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_ddlControl_3"))).selectByVisibleText("1963");
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_4")).clear();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_4")).sendKeys("albert.golubev@pkt.com");
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_chkAgree")).click();
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnPreview")).click();
-			        for (int second = 0;; second++) {
-			        	if (second >= 60);
-			        	try { if ("CONFIRM YOUR REVIEW".equals(driver.findElement(By.cssSelector("#phdesktopbody_0_phdesktopproductratingreview_0_divPreviewModeContainer > div.modal-header > h3")).getText())) break; } catch (Exception e) {}
-			        	Thread.sleep(1000);
-			        }
-
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit")).click();
-			        for (int second = 0;; second++) {
-			        	if (second >= 60) ;
-			        	try { if ("REVIEW SUBMITTED SUCCESSFULLY".equals(driver.findElement(By.cssSelector("#phdesktopbody_0_phdesktopproductratingreview_0_successHeaderMessage > div.modal-header > h3")).getText())) break; } catch (Exception e) {}
-			        	Thread.sleep(1000);
-			        }
-
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnContinue")).click();
+		        
 		        if (browser.equals("mobileiPhone5S")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
 		        	JavascriptExecutor jse = (JavascriptExecutor)driver;
