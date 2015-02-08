@@ -148,3 +148,7 @@
 2015-02-08 11:13:18,500 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
 2015-02-08 11:13:18,501 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-02-08 11:13:18,501 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-02-08 11:16:26,650 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-08 11:16:26,651 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-02-08 11:16:26,651 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-08 11:16:26,652 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
