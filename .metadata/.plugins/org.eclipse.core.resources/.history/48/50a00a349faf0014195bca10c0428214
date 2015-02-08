@@ -269,7 +269,7 @@ public class WriteReview {
 		        
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		     
-		        driver.findElement(By.id("#lnkWriteReview")).click();
+		        
 				  
 				  WebElement click = driver.findElement(By.xpath("//*[@id='phsmartphonebody_0_imgRatingStars']"));
 
