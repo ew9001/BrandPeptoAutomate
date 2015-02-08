@@ -267,7 +267,7 @@ public class WriteReview {
 			    	//Thread.sleep(1000);
 			    //} changed
 		        
-		      //  driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		     
 		        driver.findElement(By.id("#lnkWriteReview")).click();
 				  
