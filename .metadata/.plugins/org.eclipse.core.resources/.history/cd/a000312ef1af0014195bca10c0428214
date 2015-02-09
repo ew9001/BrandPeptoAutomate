@@ -3,7 +3,7 @@
 <suite name="Add to Cart" verbose="1">
     <parameter name="param" value="Test"/>
     <test name="ObjectExitTest simple example">
-        <parameter name="browser" value="browserIE10"/>
+        <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="brand.pepto.WriteReview"/>
         </classes>
