@@ -280,8 +280,10 @@ public class WriteReview {
 			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        WebElement click = driver.findElement(By.xpath("//*[@id='phsmartphonebody_0_imgRatingStars']"));
-
+			        WebElement click = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_imgRatingStarsOn']"));
+		
+			      
+			    
 					  click.click();
 			        
 			        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductRating_rblControlForProductRating_0_0_0")).click();
