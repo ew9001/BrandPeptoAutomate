@@ -274,12 +274,7 @@ public class WriteReview {
 		       
 			        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 			        driver.findElement(By.id("lnkWriteReview")).click();
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			      
 			        WebElement click = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_imgRatingStarsOn']"));
 		
 			      
