@@ -54,7 +54,7 @@
     </test>
     
        <test name="ObjectExitTest simple example 5">
-        <parameter name="browser" value="safari"/>
+        <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="brand.charmin.CharminLogin"/>
         </classes>

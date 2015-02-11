@@ -40,21 +40,8 @@
         </groups>
     </test>
     
-      <test name="ObjectExitTest simple example 4">
-        <parameter name="browser" value="Chrome"/>
-        <classes>
-            <class name="brand.charmin.CharminLogin"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
-    
-       <test name="ObjectExitTest simple example 5">
-        <parameter name="browser" value="safari"/>
+      <test name="ObjectExitTest simple example 3">
+        <parameter name="browser" value="browserIE11"/>
         <classes>
             <class name="brand.charmin.CharminLogin"/>
         </classes>
