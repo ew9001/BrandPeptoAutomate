@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="204934" started-at="2015-02-10T17:17:00Z" finished-at="2015-02-10T17:20:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="204934" started-at="2015-02-10T17:17:00Z" finished-at="2015-02-10T17:20:25Z">
+      <class name="brand.pepto.AllUrl">
+        <test-method status="FAIL" signature="searchGoogle()[pri:0, instance:brand.pepto.AllUrl@51f2c9bf]" name="searchGoogle" duration-ms="204923" started-at="2015-02-10T12:17:00Z" finished-at="2015-02-10T12:20:25Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[53]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 53
+	at jxl.read.biff.SheetImpl.getCell(SheetImpl.java:356)
+	at brand.pepto.AllUrl.searchGoogle(AllUrl.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchGoogle -->
+      </class> <!-- brand.pepto.AllUrl -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
