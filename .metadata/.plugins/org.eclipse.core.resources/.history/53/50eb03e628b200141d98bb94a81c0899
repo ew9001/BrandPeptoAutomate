@@ -41,7 +41,7 @@ public class CharminLogin {
 	  public String browser_type;
 	  public String fail,error,url,rotate;
 	  public String baseUrl = "http://uat.charmin.pgsitecore.com/en-us";
-	  
+	  public String 
 		static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 	    int counter=1;
 		String local=(new java.io.File("").getAbsolutePath());
