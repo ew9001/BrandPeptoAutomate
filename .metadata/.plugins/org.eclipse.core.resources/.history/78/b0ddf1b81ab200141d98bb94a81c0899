@@ -14,16 +14,4 @@
             </run>
         </groups>
     </test>
-    <test name="ObjectExitTest simple example">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="brand.charmin.CharminLogin"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
 </suite>
