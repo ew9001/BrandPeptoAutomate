@@ -822,3 +822,9 @@ Binding(ALT+ARROW_UP,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-02-11 18:23:42.808
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/WriteReview.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-02-11 18:32:17.469
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/WriteReview.xml]
