@@ -257,7 +257,7 @@ public class CharminWriteReview {
 		        System.out.println("The URL is " + url);	
 		        System.out.println("Image Name " +name);
 		        driver.get(url);
-		       driver.get("http://uat.charmin.pgsitecore.com/en-us/content/d/f/5/ultra-soft");
+		       
 		       // for (int second = 0;; second++) {
 			    //	if (second >= 60);
 			    	//try { if ("Â© 2014 Procter & Gamble".equals(driver.findElement(By.cssSelector("div.copyRights > div.text.mode1 > div")).getText())) break; } catch (Exception e) {}
