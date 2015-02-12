@@ -281,10 +281,9 @@ public class DesktopURL {
 		        
 		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
-		        	name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
+		        	name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 			        takeScreenPortrait(name);
 			        System.out.println("Image Name " +name);
-			        
 		        }
 		        
 		        counter+=1;
