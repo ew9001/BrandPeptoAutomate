@@ -266,29 +266,19 @@ public class AddCartTest {
 		        
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		     
-		        driver.get(baseUrl + "/en-us/shop-products");
-		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		        driver.get(baseUrl + "/en-us/content/d/f/5/ultra-soft");
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        takeScreenPortrait(name);
-		        System.out.println("Image Name " +name);
-		        counter+=1;
-		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductprimarycontentarea_0_anchrAddToCartLeft")).click();
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
-		        counter+=1;
-		        driver.findElement(By.id("imgCloseButton")).click();
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        takeScreenPortrait(name);
-		        System.out.println("Image Name " +name);
-		        counter+=1;
-		        
-		        Thread.sleep(5000);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        
 		        name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
 		        takeScreenLandscape(name);
 		        System.out.println("Image Name " +name);
