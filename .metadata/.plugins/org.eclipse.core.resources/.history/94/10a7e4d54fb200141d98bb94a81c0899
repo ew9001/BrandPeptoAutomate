@@ -84,7 +84,7 @@ public class CharminWriteReview {
 		  else if (browser.equals("mobileGalaxyS2")) {
 			  driver=  mobileGalaxyS2();
 			  csvFileToRead = data2;
-			  System.out.println("Data is gone  " +data2);
+			  System.out.println("Data is  " +data2);
 			}
 		  
 		  else if (browser.equals("mobileGalaxyS4")) {
