@@ -840,3 +840,12 @@ Binding(ALT+ARROW_UP,
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-02-11 23:41:01.715
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/tampax_production_desktop.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-02-12 00:25:42.523
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/tampax_production_mobile.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-02-12 00:25:51.078
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/tampax_production_mobile.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-02-12 00:26:54.561
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/tampax_production_mobile.xml]
