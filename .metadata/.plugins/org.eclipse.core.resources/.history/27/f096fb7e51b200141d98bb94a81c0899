@@ -271,7 +271,7 @@ public class CharminWriteReview {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().window().maximize();
-		     
+		        driver.get(baseUrl + "/en-us/content/d/f/5/ultra-soft");
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        
 		        driver.findElement(By.id("lnkWriteReview")).click();
