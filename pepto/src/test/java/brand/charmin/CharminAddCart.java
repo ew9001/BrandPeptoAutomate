@@ -45,8 +45,8 @@ public class CharminAddCart {
 		static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 	    int counter=1;
 		String local=(new java.io.File("").getAbsolutePath());
-		String data="" + local + "/" + "charmin.csv";	
-		String data2="" + local + "/" + "charmin.csv";	
+		String data="" + local + "/" + "charmin_products.csv";	
+		String data2="" + local + "/" + "charmin_products.csv";	
 		String myTitle;
 		String csvFileToRead;
 	    String safe = "http://10.10.10.34:8080/job/TESTNG3/ws/PageLoads";
@@ -261,7 +261,7 @@ public class CharminAddCart {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.get(url);
-		       driver.get("http://uat.charmin.pgsitecore.com/en-us/content/d/f/5/ultra-soft");
+		      
 		       // for (int second = 0;; second++) {
 			    //	if (second >= 60);
 			    	//try { if ("Â© 2014 Procter & Gamble".equals(driver.findElement(By.cssSelector("div.copyRights > div.text.mode1 > div")).getText())) break; } catch (Exception e) {}
@@ -277,93 +277,32 @@ public class CharminAddCart {
 		        
 		     
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        
-		        driver.findElement(By.id("lnkWriteReview")).click();
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        takeScreenPortrait(name);
-		        System.out.println("Image Name " +name);
-		        counter+=1;
-		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        
-		        WebElement click = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_imgRatingStars']"));
-
-		        click.click();
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        takeScreenPortrait(name);
-		        System.out.println("Image Name " +name);
-		        counter+=1;
-		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-
-		        
-		   
-		        
 		       
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).sendKeys("QA 12345");
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).sendKeys("SjwerjwerjwegwjegwegjkwegjlkjkjewgljewklgjewgkjwegklwegkjewgklwegjkewgjekwgjewklgjewkgjewlgjewgkwjegklewgjkewgewkgljewgljewgkjewgklwgjekwlgjewgljglwjgklwgklwgjewglgklwgjkwlgjewkljglewgjelwkgQ");
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).sendKeys("12345");
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_1")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_1")).sendKeys("Brooklyn,NY");
-		        new Select(driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_ddlControl_2"))).selectByVisibleText("2");
-		        new Select(driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_ddlControl_3"))).selectByVisibleText("1963");
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_4")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_4")).sendKeys("albert.golubev@pkt.com");
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_chkAgree")).click();
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
 		        counter+=1;
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnPreview")).click();
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        takeScreenPortrait(name);
-		 
-		        takeScreenLandscape(name);
-		        System.out.println("Image Name " +name);
-		        takeScreenPortrait(name);
-		        counter+=1;
-			    
-		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        driver.findElement(By.id("phdesktopheader_0_phdesktopheadertop_2_LogOffLink")).click();
-		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        takeScreenPortrait(name);
-		        System.out.println("Image Name " +name);
-		        name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
-		        takeScreenLandscape(name);
-		        System.out.println("Image Name " +name);
-		        takeScreenPortrait(name);
-		        counter+=1;
-			    
-		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        driver.findElement(By.id("phdesktopheader_0_phdesktopheadertop_2_anchrContinue")).click();
-		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductprimarycontentarea_0_anchrAddToCartLeft")).click();
+		        
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
 		        counter+=1;
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-
-			    
-		        System.out.println("Image Name " +name);
+		        
+		        driver.findElement(By.id("imgCloseButton")).click();
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
-		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		
-			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			       
+		        System.out.println("Image Name " +name);
+		        counter+=1;  
+		        
+		        driver.get(baseUrl + "/en-us/shop-products");
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+		        takeScreenPortrait(name);
+		        System.out.println("Image Name " +name);
+		        counter+=1;  
 		        
 		        if (browser.equals("mobileiPhone5S")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
@@ -379,7 +318,7 @@ public class CharminAddCart {
 		    
 
 		      }
-	
+		   
 		 
 	    	 driver.quit();   
 		

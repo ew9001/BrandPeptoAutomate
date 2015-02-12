@@ -1,4 +1,4 @@
-package brand.tampax.production;
+package brand.charmin;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,13 +14,13 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
-import org.openqa.selenium.Rotatable;
-import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -30,7 +30,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class DesktopURL {
+public class CharminAddCart {
 	private static WebDriver driver;
 	 
 	 public static final String USERNAME = "zaqwsx1";
@@ -40,13 +40,13 @@ public class DesktopURL {
 	 
 	  public String browser_type;
 	  public String fail,error,url,rotate;
-	  public String baseUrl = "http://stage.coffee-mate.com";
-		
+	  public String baseUrl = "http://uat.charmin.pgsitecore.com/en-us";
+	  
 		static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 	    int counter=1;
 		String local=(new java.io.File("").getAbsolutePath());
-		String data="" + local + "/" + "tampax_production.csv";	
-		String data2="" + local + "/" + "tampax_production.csv";	
+		String data="" + local + "/" + "charmin.csv";	
+		String data2="" + local + "/" + "charmin.csv";	
 		String myTitle;
 		String csvFileToRead;
 	    String safe = "http://10.10.10.34:8080/job/TESTNG3/ws/PageLoads";
@@ -84,7 +84,7 @@ public class DesktopURL {
 		  else if (browser.equals("mobileGalaxyS2")) {
 			  driver=  mobileGalaxyS2();
 			  csvFileToRead = data2;
-			  System.out.println("Data is  " +data2);
+			  System.out.println("Data is gone  " +data2);
 			}
 		  
 		  else if (browser.equals("mobileGalaxyS4")) {
@@ -232,7 +232,7 @@ public class DesktopURL {
 			  
 		 
 		  System.out.println("Let me run get driver "+driver);
-		  fail=""+ browser+"/Failed/" + timeStamp + "_" + "contact_us.png";
+		  fail="/Error/"+ browser+"/Failed/" + timeStamp + "_" + "page_error.png";
 			 
 		  
 		  
@@ -256,16 +256,97 @@ public class DesktopURL {
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        System.out.println("The URL is " + url);	
 		        System.out.println("Image Name " +name);
+		       // driver.manage().window().maximize();
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.get(url);
-		       
+		       driver.get("http://uat.charmin.pgsitecore.com/en-us/content/d/f/5/ultra-soft");
 		       // for (int second = 0;; second++) {
 			    //	if (second >= 60);
 			    	//try { if ("Â© 2014 Procter & Gamble".equals(driver.findElement(By.cssSelector("div.copyRights > div.text.mode1 > div")).getText())) break; } catch (Exception e) {}
 			    	//Thread.sleep(1000);
 			    //} changed
 		        
-		       
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		     
+		  
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        
+		     
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        
+		        driver.findElement(By.id("lnkWriteReview")).click();
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+		        takeScreenPortrait(name);
+		        System.out.println("Image Name " +name);
+		        counter+=1;
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		        
+		        WebElement click = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_imgRatingStars']"));
+
+		        click.click();
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+		        takeScreenPortrait(name);
+		        System.out.println("Image Name " +name);
+		        counter+=1;
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+
+		        
+		   
+		        
+		       
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).clear();
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).sendKeys("QA 12345");
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).clear();
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).sendKeys("SjwerjwerjwegwjegwegjkwegjlkjkjewgljewklgjewgkjwegklwegkjewgklwegjkewgjekwgjewklgjewkgjewlgjewgkwjegklewgjkewgewkgljewgljewgkjewgklwgjekwlgjewgljglwjgklwgklwgjewglgklwgjkwlgjewkljglewgjelwkgQ");
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).clear();
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).sendKeys("12345");
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_1")).clear();
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_1")).sendKeys("Brooklyn,NY");
+		        new Select(driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_ddlControl_2"))).selectByVisibleText("2");
+		        new Select(driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_ddlControl_3"))).selectByVisibleText("1963");
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_4")).clear();
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_4")).sendKeys("albert.golubev@pkt.com");
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_chkAgree")).click();
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+		        takeScreenPortrait(name);
+		        System.out.println("Image Name " +name);
+		        counter+=1;
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnPreview")).click();
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+		        takeScreenPortrait(name);
+		 
+		        takeScreenLandscape(name);
+		        System.out.println("Image Name " +name);
+		        takeScreenPortrait(name);
+		        counter+=1;
+			    
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		        driver.findElement(By.id("phdesktopheader_0_phdesktopheadertop_2_LogOffLink")).click();
+		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+		        takeScreenPortrait(name);
+		        System.out.println("Image Name " +name);
+		        name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
+		        takeScreenLandscape(name);
+		        System.out.println("Image Name " +name);
+		        takeScreenPortrait(name);
+		        counter+=1;
+			    
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		        driver.findElement(By.id("phdesktopheader_0_phdesktopheadertop_2_anchrContinue")).click();
+		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -273,21 +354,28 @@ public class DesktopURL {
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
-		       
+		        counter+=1;
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        driver.get("http://author.pepto-bismol.pgsitecore.com/en-us/shopping-cart");
+
+			    
+		        System.out.println("Image Name " +name);
+		        takeScreenPortrait(name);
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        
+			       
 		        
-		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
+		        if (browser.equals("mobileiPhone5S")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
-		        	name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
-			        takeScreenPortrait(name);
-			        System.out.println("Image Name " +name);
-			        
+		        	JavascriptExecutor jse = (JavascriptExecutor)driver;
+		        jse.executeScript("scroll(0, 14700)"); //y value '250' can be altered
+		        	   driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		        	 name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Scrolled-Capture.png";
+				        System.out.println("Image Name is  " +name);
+				        takeScreenPortrait(name);
 		        }
 		        
-		        counter+=1; 
+		        counter+=1;
 		    
 
 		      }
@@ -348,7 +436,7 @@ public class DesktopURL {
 	 public WebDriver browserIE10() throws MalformedURLException  
 	 {  
 	  
-		 System.out.println("Let me run mobileGalaxyS3");
+		 System.out.println("Let me run IE10");
 		 String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 		 DesiredCapabilities caps = new DesiredCapabilities();
 		 caps.setCapability("browser", "IE");
@@ -364,7 +452,7 @@ public class DesktopURL {
 	      browser_type="browserIE10";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
-	      driver.get("http://nhl.com");
+	      driver.get("http://uat.charmin.pgsitecore.com/en-us/content/d/f/5/ultra-soft");
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	      System.out.println(data);
 	      return driver;
@@ -1087,7 +1175,7 @@ public class DesktopURL {
 		    
 		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		    FileUtils.copyFile(screenshot, new File(name));
-		    
+		   
 		    return driver;
 	 }
 	
