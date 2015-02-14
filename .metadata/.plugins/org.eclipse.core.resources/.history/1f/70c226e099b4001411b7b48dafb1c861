@@ -12,11 +12,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -244,18 +242,7 @@ public class ProductAddCart {
 		    int lineNumber = 0;
 
 		    br = new BufferedReader(new FileReader(csvFileToRead));  
-		    try {
-	        	
-	        	driver.findElement(By.id("email")).sendKeys("aik1771@yahoo.com");
-		        driver.findElement(By.id("pass")).clear();
-		        driver.findElement(By.id("pass")).sendKeys("aik1771");
-		        driver.findElement(By.id("u_0_n")).click();
-		        driver.get("http://facebook.com");
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-	        } catch (NoSuchElementException e) {
-	            
-	        }
+		    
 		    while ((line = br.readLine()) != null) {
 		  	  
 		        System.out.println("The URL is " + counter);
@@ -296,13 +283,6 @@ public class ProductAddCart {
 			        takeScreenPortrait(name);
 			        System.out.println("Image Name " +name);
 			        counter+=1;
-			        driver.findElement(By.id("phdesktopbody_0_phdesktopbreadcrumbtrail_1_rptSMLinks_smHyperLink_1 > img")).click();   
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.findElement(By.id("anchrShareText > span")).click();   
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			       
-			     
-			        
 		        
 		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
