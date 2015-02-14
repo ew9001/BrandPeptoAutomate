@@ -275,14 +275,9 @@ public class ProductAddCart {
 		        System.out.println("Image Name " +name);
 		       
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        driver.get("http://tampax.com/en-us/shopping-cart");
+		        driver.get("http://author.pepto-bismol.pgsitecore.com/en-us/shopping-cart");
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			     
-			     
-			     name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-			        takeScreenPortrait(name);
-			        System.out.println("Image Name " +name);
-			        counter+=1;
+			        
 		        
 		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
@@ -292,7 +287,7 @@ public class ProductAddCart {
 			        
 		        }
 		        
-		       // counter+=1; 
+		        counter+=1; 
 		    
 
 		      }
