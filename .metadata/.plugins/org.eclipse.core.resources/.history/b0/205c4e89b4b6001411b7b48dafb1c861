@@ -246,7 +246,13 @@ public class ProductAddCart {
 		    br = new BufferedReader(new FileReader(csvFileToRead));  
 		    try {
 	        	
-	        	
+	        	driver.findElement(By.id("email")).sendKeys("aik1771@yahoo.com");
+		        driver.findElement(By.id("pass")).clear();
+		        driver.findElement(By.id("pass")).sendKeys("aik1771");
+		        driver.findElement(By.id("u_0_n")).click();
+		        driver.get("http://facebook.com");
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	        } catch (NoSuchElementException e) {
 	            
 	        }
@@ -261,18 +267,6 @@ public class ProductAddCart {
 		        System.out.println("The URL is " + url);	
 		        System.out.println("Image Name " +name);
 		        driver.get(url);
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopbreadcrumbtrail_1_rptSMLinks_smHyperLink_1 > img")).click();   
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.findElement(By.id("anchrShareText > span")).click();   
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        takeScreenPortrait(name);
-		        System.out.println("Image Name " +name);
-		        counter+=1;
-		        
-		      
-		      
-		        
 		       
 		       // for (int second = 0;; second++) {
 			    //	if (second >= 60);
@@ -302,7 +296,10 @@ public class ProductAddCart {
 			        takeScreenPortrait(name);
 			        System.out.println("Image Name " +name);
 			        counter+=1;
-			        
+			        driver.findElement(By.id("phdesktopbody_0_phdesktopbreadcrumbtrail_1_rptSMLinks_smHyperLink_1 > img")).click();   
+			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			        driver.findElement(By.id("anchrShareText > span")).click();   
+			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			       
 			     
 			        

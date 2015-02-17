@@ -1023,3 +1023,15 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-02-14 11:52:45.889
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/tampaxproductionaddcart.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-02-17 13:07:03.298
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/tampax_production_mobile.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-02-17 13:08:10.675
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/tampax_production_addcart_mobile.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-02-17 13:08:18.340
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/tampax_production_desktop.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-02-17 13:08:53.627
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/tampax_production_addcart_mobile.xml]
