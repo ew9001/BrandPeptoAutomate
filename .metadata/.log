@@ -1184,3 +1184,9 @@ Binding(COMMAND+SHIFT+F,
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-02-17 14:21:31.774
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/tampax_desktop_print.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-02-17 14:22:48.446
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/LoginCharmin.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-02-17 14:23:31.018
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/tampax_desktop_print.xml]

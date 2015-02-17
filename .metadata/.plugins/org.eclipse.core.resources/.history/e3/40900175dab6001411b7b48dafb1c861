@@ -1,7 +1,31 @@
-  <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+ <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
 <suite name="Add to Cart" verbose="1">
     <parameter name="param" value="Test"/>
+    <test name="ObjectExitTest simple example">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="brand.tampax.production.ArticlesPrint"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    <test name="ObjectExitTest simple example">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="brand.tampax.production.ArticlesPrint"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
     <test name="ObjectExitTest simple example">
         <parameter name="browser" value="browserIE10"/>
         <classes>
@@ -14,20 +38,7 @@
             </run>
         </groups>
     </test>
-    <test name="ObjectExitTest simple example 2">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="brand.tampax.production.ArticlesPrint"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
-    
-     <test name="ObjectExitTest simple example 3">
+        <test name="ObjectExitTest simple example">
         <parameter name="browser" value="browserIE11"/>
         <classes>
             <class name="brand.tampax.production.ArticlesPrint"/>
@@ -39,22 +50,9 @@
             </run>
         </groups>
     </test>
-    
-      <test name="ObjectExitTest simple example 4">
-        <parameter name="browser" value="Chrome"/>
-        <classes>
-            <class name="brand.tampax.production.ArticlesPrint"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
-    
-       <test name="ObjectExitTest simple example 5">
-        <parameter name="browser" value="safari"/>
+     </test>
+        <test name="ObjectExitTest simple example">
+        <parameter name="browser" value="safarfi"/>
         <classes>
             <class name="brand.tampax.production.ArticlesPrint"/>
         </classes>
@@ -66,4 +64,3 @@
         </groups>
     </test>
 </suite>
- 
