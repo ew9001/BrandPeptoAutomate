@@ -272,7 +272,7 @@ public class ArticlesPrint {
 		        System.out.println("Image Name " +name);
 		        counter+=1; 
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		 
+		        driver.get("http://author.pepto-bismol.pgsitecore.com/en-us/shopping-cart");
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.findElement(By.id("phdesktopbody_0_phdesktopprint_0_anchrPrint")).click(); 
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
