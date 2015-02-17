@@ -29,7 +29,7 @@
     <test name="ObjectExitTest simple example">
         <parameter name="browser" value="browserIE10"/>
         <classes>
-            <class name="brand.tampax.production.ArticlesPrint"/>
+            <class name="brand.tampax.production.ArticlePrint"/>
         </classes>
  
         <groups>
