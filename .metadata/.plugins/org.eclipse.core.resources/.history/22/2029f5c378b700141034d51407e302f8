@@ -40,7 +40,7 @@ public class CharminWriteReview {
 	 
 	  public String browser_type;
 	  public String fail,error,url,rotate;
-	
+	  public String baseUrl = "http://uat.charmin.pgsitecore.com/en-us";
 	  
 		static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 	    int counter=1;
@@ -879,7 +879,7 @@ public class CharminWriteReview {
 		 caps.setCapability("browserstack.local", "true");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run Firefox");
-	      driver.get("/content/b/e/d/basic");
+	      driver.get("http://stage.coffee-mate.com/Registration/Create-Account.aspx?email=" + timeStamp +"%40yahoo.com&stt=True");
 	      driver.manage().window().maximize();
 	      return driver;
 	 }
