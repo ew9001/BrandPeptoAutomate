@@ -314,10 +314,8 @@ public class CharminWriteReview {
 		        
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductRating_rblControlForProductRating_0_0_0")).clear();
 		        
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_1")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_1")).sendKeys("SjwerjwerjwegwjegwegjkwegjlkjkjewgljewklgjewgkjwegklwegkjewgklwegjkewgjekwgjewklgjewkgjewlgjewgkwjegklewgjkewgewkgljewgljewgkjewgklwgjekwlgjewgljglwjgklwgklwgjewglgklwgjkwlgjewkljglewgjelwkgQ");
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).sendKeys("SjwerjwerjwegwjegwegjkwegjlkjkjewgljewklgjewgkjwegklwegkjewgklwegjkewgjekwgjewklgjewkgjewlgjewgkwjegklewgjkewgewkgljewgljewgkjewgklwgjekwlgjewgljglwjgklwgklwgjewglgklwgjkwlgjewkljglewgjelwkgQ");
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).clear();
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).sendKeys("SjwerjwerjwegwjegwegjkwegjlkjkjewgljewklgjewgkjwegklwegkjewgklwegjkewgjekwgjewklgjewkgjewlgjewgkwjegklewgjkewgewkgljewgljewgkjewgklwgjekwlgjewgljglwjgklwgklwgjewglgklwgjkwlgjewkljglewgjelwkgQ");
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).clear();
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).sendKeys("12345");
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_1")).clear();
