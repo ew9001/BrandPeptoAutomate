@@ -1,0 +1,42 @@
+package mobile.test;
+
+public class AppiumiPhoneWebDriverDemo {
+	private String baseUrl;
+    private WebDriver driver;
+
+    @Before
+    public void setup() throws Exception
+    {
+
+        WebDriver driver;
+        DesiredCapabilities cap = new DesiredCapabilities();
+        //cap.setCapability("", "");
+        //cap.setCapability("browsername", "");
+        //cap.setCapability("os", "iOS 6.1");
+        cap.setCapability("device", "iPhone Simulator");
+        cap.setCapability("app", "safari");
+
+        driver = new RemoteWebDriver(new URL("http://localhost:4723/wd/hub"), cap);
+
+    baseUrl = "http://www.cnn.com";
+
+    }   
+
+    @After
+    public void tearDown() throws Exception
+    {
+
+    driver.quit();
+
+    }
+
+
+    @Test
+    public void test_searchWorks() throws Exception
+    {
+        this.driver.get(baseUrl);
+
+        driver.quit();
+    }
+
+}
