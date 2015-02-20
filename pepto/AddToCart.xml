@@ -14,4 +14,30 @@
             </run>
         </groups>
     </test>
+    
+    <test name="Add to Cart IE10">
+        <parameter name="browser" value="browserIE10"/>
+        <classes>
+            <class name="brand.charmin.CharminAddCart"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+    <test name="Add to Cart IE11">
+        <parameter name="browser" value="browserIE11"/>
+        <classes>
+            <class name="brand.charmin.CharminAddCart"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
 </suite>
