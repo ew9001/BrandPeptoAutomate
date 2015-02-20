@@ -300,7 +300,6 @@ public class CharminAddCart {
 		        
 		        driver.get("http://author.charmin.pgsitecore.com/en-us/shopping-cart");
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
 		        counter+=1;  
