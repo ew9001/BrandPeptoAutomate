@@ -298,7 +298,7 @@ public class CharminAddCart {
 		        System.out.println("Image Name " +name);
 		        counter+=1;  
 		        
-		        driver.get("http://author.charmin.pgsitecore.com/en-us/shopping-cart");
+		        driver.get(baseUrl + "/en-us/shop-products");
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
