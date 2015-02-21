@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="brand.pepto.AllUrl">
+      <class name="mobile.test.FirstTest">
         <methods>
-          <include name="searchGoogle"/>
+          <include name="testCases"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- brand.pepto.AllUrl -->
+      </class> <!-- mobile.test.FirstTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
