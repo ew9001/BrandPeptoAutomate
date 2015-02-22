@@ -41,8 +41,8 @@
         </groups>
     </test>
     
-    <test name="Add to Cart tabletIpad4thGen7">
-        <parameter name="browser" value="tabletIpad4thGen7"/>
+    <test name="Add to Cart IE11">
+        <parameter name="browser" value="browserIE11"/>
         <classes>
             <class name="brand.charmin.CharminAddCart"/>
         </classes>

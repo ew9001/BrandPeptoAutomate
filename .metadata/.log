@@ -1638,3 +1638,12 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
 	at java.util.TimerThread.mainLoop(Timer.java:555)
 	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-02-21 19:14:14.667
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/AddToCart.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-02-21 19:14:38.118
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/AddToCart.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-02-21 19:15:08.762
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/AddToCart.xml]

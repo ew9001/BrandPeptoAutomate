@@ -40,17 +40,4 @@
             </run>
         </groups>
     </test>
-    
-    <test name="Add to Cart tabletIpad4thGen7">
-        <parameter name="browser" value="tabletIpad4thGen7"/>
-        <classes>
-            <class name="brand.charmin.CharminAddCart"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
 </suite>

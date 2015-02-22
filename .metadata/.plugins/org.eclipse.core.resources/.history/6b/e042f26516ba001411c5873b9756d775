@@ -257,15 +257,11 @@ public class CharminTopNav {
 		        System.out.println("The URL is " + url);	
 		        System.out.println("Image Name " +name);
 		        driver.get(url);
-		        
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        WebElement ele = driver.findElement(By.id("phdesktopheader_0_phdesktopheaderbottom_0_li1 > a"));   
 		        Actions action = new Actions(driver);
 		        action.moveToElement(ele).build().perform();
 		        
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
-		        takeScreenPortrait(name);
-		        System.out.println("Image Name " +name);
-		        counter+=1;
 		        
 		        
 		        ele = driver.findElement(By.id("phdesktopheader_0_phdesktopheaderbottom_0_li2 > a"));   
