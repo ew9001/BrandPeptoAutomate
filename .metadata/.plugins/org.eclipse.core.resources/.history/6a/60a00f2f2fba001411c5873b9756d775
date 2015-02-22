@@ -284,9 +284,9 @@ public class CharminLogin {
 		        takeScreenPortrait(name);
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        driver.findElement(By.id("phdesktopbody_0_username")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_username")).sendKeys("albert.golubev@pkt.com");
+		        driver.findElement(By.id("phdesktopbody_0_username")).sendKeys("test@pkt.com");
 		        driver.findElement(By.id("phdesktopbody_0_password")).clear();
-		        driver.findElement(By.id("phdesktopbody_0_password")).sendKeys("zaq12wsx");
+		        driver.findElement(By.id("phdesktopbody_0_password")).sendKeys("Zaq12wsx!");
 		        driver.findElement(By.id("phdesktopbody_0_submit")).click();
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
