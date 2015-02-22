@@ -3,7 +3,7 @@
 <suite name="Add to Cart" verbose="1">
     <parameter name="param" value="Test"/>
     
-    <test name="Add to Carts tabletIpadAir">
+    <test name="Add to Cart tabletIpadAir">
         <parameter name="browser" value="tabletIpadAir"/>
         <classes>
             <class name="brand.charmin.CharminAddCart"/>
