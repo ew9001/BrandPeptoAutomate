@@ -2,20 +2,6 @@
  
 <suite name="Add to Cart" verbose="1">
     <parameter name="param" value="Test"/>
-    
-    <test name="Add to Cart tabletIpadAir">
-        <parameter name="browser" value="tabletIpadAir"/>
-        <classes>
-            <class name="brand.charmin.CharminAddCart"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
-    
     <test name="Add to Cart Firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
@@ -55,5 +41,16 @@
         </groups>
     </test>
     
-    
+    <test name="Add to Cart tabletIpad4thGen7">
+        <parameter name="browser" value="tabletIpad4thGen7"/>
+        <classes>
+            <class name="brand.charmin.CharminAddCart"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
 </suite>
