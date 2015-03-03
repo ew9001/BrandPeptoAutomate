@@ -2268,3 +2268,9 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 1 0 2015-03-03 11:46:14.767
 !MESSAGE No valid Android XML Editor Delegate found for file /pepto/AddToCart.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-03-03 16:07:09.027
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/SwifferToCart.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-03 16:09:43.948
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/SwifferToCart.xml]

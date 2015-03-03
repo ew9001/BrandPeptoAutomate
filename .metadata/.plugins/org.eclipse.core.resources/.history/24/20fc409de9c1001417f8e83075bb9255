@@ -1,14 +1,14 @@
  <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
-<suite name="Browser Login " verbose="1">
+<suite name="Add to Cart" verbose="1">
     <parameter name="param" value="Test"/>
     
     
     
-    <test name="Login on browser Firefox">
+    <test name="Add to Cart Firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="brand.swiffer.SwifferLogin"/>
+            <class name="brand.charmin.CharminAddCart"/>
         </classes>
  
         <groups>
@@ -18,10 +18,10 @@
         </groups>
     </test>
     
-    <test name="Login on browser  IE10">
+    <test name="Add to Cart IE10">
         <parameter name="browser" value="browserIE10"/>
         <classes>
-            <class name="brand.swiffer.SwifferLogin"/>
+            <class name="brand.charmin.CharminAddCart"/>
         </classes>
  
         <groups>
@@ -31,10 +31,10 @@
         </groups>
     </test>
     
-    <test name="Login on browser IE11">
+    <test name="Add to Cart IE11">
         <parameter name="browser" value="browserIE11"/>
         <classes>
-            <class name="brand.swiffer.SwifferLogin"/>
+            <class name="brand.charmin.CharminAddCart"/>
         </classes>
  
         <groups>
