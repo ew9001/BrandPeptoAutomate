@@ -1,0 +1,59 @@
+package test.rotate.device;
+
+import java.io.File;
+import java.util.Set;
+import java.util.regex.Pattern;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.junit.*;
+
+import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.*;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class SocialShare {
+  private WebDriver driver;
+  private String baseUrl;
+  private boolean acceptNextAlert = true;
+  private StringBuffer verificationErrors = new StringBuffer();
+
+  @Before
+  public void setUp() throws Exception {
+    driver = new FirefoxDriver();
+    baseUrl = "http://tampax.com/";
+    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+  }
+
+  @Test
+  public void testUntitled() throws Exception {
+    driver.get(baseUrl + "http://jira1.pg.com//secure/Dashboard.jspa");
+ // ERROR: Caught exception [ERROR: Unsupported command [deleteCookie | c_user | ]]
+
+    driver.findElement(By.id("login-form-username")).sendKeys("tester92010013@yahoo.com");
+    driver.findElement(By.id("login-form-password")).clear();
+
+    Thread.sleep(3000);
+    driver.findElement(By.name("login")).click();   
+    
+    }
+  
+
+  @After
+  public void tearDown() throws Exception {
+    driver.quit();
+    String verificationErrorString = verificationErrors.toString();
+    if (!"".equals(verificationErrorString)) {
+      fail(verificationErrorString);
+    }
+  }
+
+
+
+ 
+
+ 
+}

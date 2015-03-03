@@ -1,0 +1,67 @@
+package mobile.test;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.iphone.IPhoneDriver;
+import org.testng.annotations.Test;
+
+public class ReadCSV {
+	
+	public static void main(String[] args) throws Exception {
+		 
+		ReadCSV obj = new ReadCSV();
+		obj.run();
+	 
+	  }
+	 
+	  public void run() throws Exception {
+	 
+		  String local=(new java.io.File("").getAbsolutePath());
+			String data="" + local + "/" + "mobileCharmin.csv";	
+		BufferedReader br = null;
+		String line = "";
+		String cvsSplitBy = ",";
+		
+		
+		 WebDriver driver = new IPhoneDriver("http://192.168.2.2:3001/wd/hub/");
+		  //Write a review
+		  
+		 
+		try {
+	 
+			br = new BufferedReader(new FileReader(data));
+			while ((line = br.readLine()) != null) {
+	 
+			        // use comma as separator
+				String[] product = line.split(cvsSplitBy);
+	 
+				System.out.println("Country [code= " + product[0] 
+	                                 + " , name=" + product[1] + "]");
+				 driver.get(product[0]);
+	 
+			}
+	 
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			if (br != null) {
+				try {
+					br.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	 
+		System.out.println("Done");
+	  }
+
+}

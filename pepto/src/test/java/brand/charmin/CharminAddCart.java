@@ -10,6 +10,8 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
+import mobile.test.CharminMobileIphone;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -50,11 +52,14 @@ public class CharminAddCart {
 		String myTitle;
 		String csvFileToRead;
 	    String safe = "http://10.10.10.34:8080/job/TESTNG3/ws/PageLoads";
+	
 	  @Test(groups = {"create"})
 		@Parameters({"browser"})
 	  @BeforeClass
 	  public void beforeClass(String browser) throws IOException, InterruptedException
 	  {	   
+		  
+		  
 		  
 		  
 		  if (browser.equals("mobileGalaxyS3")) {
@@ -243,40 +248,63 @@ public class CharminAddCart {
 		    File dir = new File("/users/agolubev1/Desktop/RondAndroid");
 		
 		    int lineNumber = 0;
-
-		    br = new BufferedReader(new FileReader(csvFileToRead));  
+		    int row=0;
+			br = new BufferedReader(new FileReader(data));
+			while ((line = br.readLine()) != null) {
 		    
-		    while ((line = br.readLine()) != null) {
+	
 		  	  
-		        System.out.println("The URL is " + counter);
-		        String [] nextLine = line.split(",");
-		        // nextLine[] is an array of values from the line
-		        System.out.println(nextLine[lineNumber]);
-		        url=nextLine[lineNumber];
-		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        System.out.println("The URL is " + url);	
-		        System.out.println("Image Name " +name);
-		       // driver.manage().window().maximize();
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.get(url);
-		      
-		       // for (int second = 0;; second++) {
-			    //	if (second >= 60);
-			    	//try { if ("Â© 2014 Procter & Gamble".equals(driver.findElement(By.cssSelector("div.copyRights > div.text.mode1 > div")).getText())) break; } catch (Exception e) {}
-			    	//Thread.sleep(1000);
-			    //} changed
-		        
-		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		     
-		  
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        
-		     
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        // use comma as separator
+		  				String[] product = line.split(cvsSplitBy);
+		  	 
+		  				System.out.println("{Product [code= " + product[0] 
+		  	                                 + " , name=" + product[1] + "]");
+		  				 driver.get(product[0]);
+		  				 driver.findElement(By.linkText(product[1])).click();
+		  				 driver.findElement(By.linkText(product[3])).click();
+		  				 File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  					FileUtils.copyFile(scrFile1, new File("Y://Screenshots/charmin/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "product.png"));
+		  					row+=1;
+		  					Select droplist = new Select(driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_ddlQuantity")));   
+		  					droplist.selectByVisibleText(product[2]);
+		  					//	
+		  				//	driver.findElement(By.id('not-there')).then(function(element) {
+		  					//	  alert('Found an element that was not expected to be there!');
+		  						///}, function(error) {
+		  						  //alert('The element was not found, as expected');
+		  					///	});
+		  					//((Rotatable) driver).rotate(ScreenOrientation.PORTRAIT);
+		  					driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		  				 driver.findElement(By.linkText("Add To Cart")).click();
+		  				 File scrFile2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  					FileUtils.copyFile(scrFile2, new File("Y://Screenshots/charmin/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "cart.png"));
+		  					row+=1;
+		  					//((Rotatable) driver).rotate(ScreenOrientation.PORTRAIT);
+		  					driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		  					
+		  			}
+		  			row+=1;
+		  			driver.get("http://author.charmin.pgsitecore.com/en-us/shopping-cart");
+		  			driver.findElement(By.id("phsmartphonebody_0_phsmartphoneshoppingcartretailerlist_0_rptRetailerList_imgRetailerLogo_0"));
+		  			File scrFile3 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  			FileUtils.copyFile(scrFile3, new File("Y://Screenshots/charmin/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "cart.png"));
+		  			row+=1;
+		  			driver.findElement(By.id("phsmartphonebody_0_phsmartphoneshoppingcartretailerlist_0_rptRetailerList_imgRetailerLogo_2"));
+		  			File scrFile4 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  			FileUtils.copyFile(scrFile4, new File("Y://Screenshots/charmin/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "cart.png"));
+		  			row+=1;
+		  			driver.findElement(By.id("phsmartphonebody_0_phsmartphoneshoppingcartretailerlist_0_rptRetailerList_imgRetailerLogo_3"));
+		  			File scrFile5 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  			FileUtils.copyFile(scrFile5, new File("Y://Screenshots/charmin/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "cart.png"));
+		  			row+=1;
+		  			driver.findElement(By.id("phsmartphonebody_0_phsmartphoneshoppingcartretailerlist_0_rptRetailerList_imgRetailerLogo_4"));
+		  			File scrFile6 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  			FileUtils.copyFile(scrFile6, new File("Y://Screenshots/charmin/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "cart.png"));
+		  			row+=1;
+		  			driver.findElement(By.id("phsmartphonebody_0_phsmartphoneshoppingcartretailerlist_0_rptRetailerList_imgRetailerLogo_5"));
+		  			File scrFile7 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  			FileUtils.copyFile(scrFile7, new File("Y://Screenshots/charmin/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "cart.png"));
+		  			row+=1;
 		       
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
