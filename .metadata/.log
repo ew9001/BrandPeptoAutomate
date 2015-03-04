@@ -2370,3 +2370,6 @@ java -ea -classpath /Users/agolubev1/Downloads/eclipse/plugins/org.testng.eclips
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-03-04 15:33:53.880
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/SwifferAddCartDesktop.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-04 18:15:17.275
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/SwifferAddCartDesktop.xml]

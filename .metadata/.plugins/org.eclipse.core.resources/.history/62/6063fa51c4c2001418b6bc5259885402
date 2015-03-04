@@ -3,18 +3,7 @@
 <suite name="Browser Add Cart " verbose="1">
     <parameter name="param" value="Test"/>
     
-    <test name="Add Cart on browser  IE10">
-        <parameter name="browser" value="browserIE10"/>
-        <classes>
-            <class name="brand.swiffer.SwifferAddCartDesktop"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
+    
     
     <test name="Add Cart on browser Firefox">
         <parameter name="browser" value="firefox"/>
@@ -29,7 +18,18 @@
         </groups>
     </test>
     
-    
+    <test name="Add Cart on browser  IE10">
+        <parameter name="browser" value="browserIE10"/>
+        <classes>
+            <class name="brand.swiffer.SwifferAddCartDesktop"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
     
     <test name="Add Cart on browser IE11">
         <parameter name="browser" value="browserIE11"/>
