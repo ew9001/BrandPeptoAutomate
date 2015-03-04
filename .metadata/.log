@@ -2283,3 +2283,6 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-03-03 20:22:25.704
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/SwifferWriteReview.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-03 20:27:31.934
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/SwifferWriteReview.xml]

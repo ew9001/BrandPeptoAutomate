@@ -5,10 +5,10 @@
     
     
     
-    <test name="Review on browser Firefox 34">
+    <test name="Login on browser Firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="brand.swiffer.SwifferWriteReview"/>
+            <class name="brand.swiffer.SwifferToCart"/>
         </classes>
  
         <groups>
