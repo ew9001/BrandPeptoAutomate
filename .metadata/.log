@@ -2355,3 +2355,12 @@ java -ea -classpath /Users/agolubev1/Downloads/eclipse/plugins/org.testng.eclips
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-03-04 14:33:30.832
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/SwifferToCart.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-03-04 14:39:16.525
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/SwifferArticle.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-04 14:41:38.052
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/SwifferArticle.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-04 14:42:11.162
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/SwifferArticle.xml]
