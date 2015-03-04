@@ -294,7 +294,7 @@ public class SwifferAddCartDesktop {
 		        System.out.println("Image Name " +name);
 		        takeScreenPortrait(name);
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        driver.get("http://author.swiffer.pgsitecore.com/en-us/shopping-cart");
+		        driver.get("http://author.pepto-bismol.pgsitecore.com/en-us/shopping-cart");
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
