@@ -1295,3 +1295,11 @@
 2015-03-03 20:27:32,092 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
 2015-03-03 20:27:32,093 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-03-03 20:27:32,093 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-03-04 07:45:38,677 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-03-04 07:45:38,677 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-03-04 07:45:38,678 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-03-04 07:45:38,678 [Worker-208] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-03-04 07:46:11,040 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-03-04 07:46:11,040 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-03-04 07:46:11,041 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-03-04 07:46:11,041 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
