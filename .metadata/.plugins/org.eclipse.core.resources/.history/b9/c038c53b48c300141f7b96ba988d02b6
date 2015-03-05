@@ -254,8 +254,7 @@ public class SwifferGalaxyAddCart {
 			    	//try { if ("Â© 2014 Procter & Gamble".equals(driver.findElement(By.cssSelector("div.copyRights > div.text.mode1 > div")).getText())) break; } catch (Exception e) {}
 			    	//Thread.sleep(1000);
 			    //} changed
-		        driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
-		    
+		        
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
