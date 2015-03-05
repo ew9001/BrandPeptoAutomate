@@ -390,11 +390,11 @@ public class SwifferGalaxyAddCart {
 		 caps.setCapability("rotatable", true);
 		 caps.setCapability("acceptSslCerts", "true");
 				    driver = new RemoteWebDriver(new URL(URL), caps);
-	      System.out.println("Let me run mobileGalaxyS5");
-	      browser_type="mobileGalaxyS5";
+	      System.out.println("Let me run mobileGalaxyS3");
+	      browser_type="mobileGalaxyS3";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
-	      driver.get("http://www.sqaforums.com/forums/forum.php");
+	      driver.get("http://uat.metawellness.pgsitecore.com/en-us");
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	      System.out.println(data);
 	      return driver;
