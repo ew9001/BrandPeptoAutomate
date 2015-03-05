@@ -389,7 +389,8 @@ public class SwifferGalaxyAddCart {
 		 caps.setCapability("browserstack.local", "true");
 		 caps.setCapability("rotatable", true);
 		 caps.setCapability("acceptSslCerts", "true");
-				    driver = new RemoteWebDriver(new URL(URL), caps);
+		 caps.setCapability("deviceOrientation", "landscape");
+		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run mobileGalaxyS3");
 	      browser_type="mobileGalaxyS3";
 	      System.out.println("Let me see which one get tested" +browser_type);
