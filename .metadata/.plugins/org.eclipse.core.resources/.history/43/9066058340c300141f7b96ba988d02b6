@@ -262,12 +262,11 @@ public class SwifferGalaxyAddCart {
 		        takeScreenLandscape(name);
 		        System.out.println("Image Name " +name);
 		        takeScreenPortrait(name);
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		     
-		        
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.findElement(By.linkText("Add To Cart")).click();
+		        JavascriptExecutor jse = (JavascriptExecutor)driver;
+		        jse.executeScript("window.scrollBy(0,450)", "");
+			     driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click(); 
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
