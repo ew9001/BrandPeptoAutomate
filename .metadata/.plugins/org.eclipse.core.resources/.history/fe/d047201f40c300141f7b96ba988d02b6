@@ -264,8 +264,6 @@ public class SwifferGalaxyAddCart {
 		        takeScreenPortrait(name);
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        JavascriptExecutor jse = (JavascriptExecutor)driver;
-		        jse.executeScript("window.scrollBy(0,450)", "");
 			     driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click(); 
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
