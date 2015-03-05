@@ -266,10 +266,10 @@ public class SwifferGalaxyAddCart {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		     
 		        JavascriptExecutor jse = (JavascriptExecutor)driver;
-		      //  jse.executeScript("scroll(0, 14)"); //y value '250' can be altered
+		        jse.executeScript("scroll(0, 14700)"); //y value '250' can be altered
 		        	   driver.manage().timeouts().implicitlyWait(450, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	       
-		        driver.findElement(By.id("#phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click();
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.findElement(By.linkText("Add To Cart")).click();
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
