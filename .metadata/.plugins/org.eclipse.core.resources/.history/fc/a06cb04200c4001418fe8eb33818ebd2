@@ -35,7 +35,7 @@ public class CharminMobileIphone {
 	  public void run() throws Exception {
 		  String timeStamp = new SimpleDateFormat("MMdd_HHmmss").format(Calendar.getInstance().getTime());
 		  String local=(new java.io.File("").getAbsolutePath());
-			String data="" + local + "/" + "cadi1.csv";	
+			String data="" + local + "/" + "cadi.csv";	
 			int row=1;
 		BufferedReader br = null;
 		String line = "";
@@ -45,7 +45,7 @@ public class CharminMobileIphone {
 		
 		
 		// @SuppressWarnings("deprecation")
-		WebDriver driver = new IPhoneDriver("http://192.168.2.6:3001/wd/hub/");
+		WebDriver driver = new IPhoneDriver("http://172.28.61.112:3001/wd/hub/");
 		
 		  //Write a review
 		  

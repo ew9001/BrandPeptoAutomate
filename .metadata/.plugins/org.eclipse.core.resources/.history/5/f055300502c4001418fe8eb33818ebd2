@@ -35,7 +35,7 @@ public class CharminMobileIphone {
 	  public void run() throws Exception {
 		  String timeStamp = new SimpleDateFormat("MMdd_HHmmss").format(Calendar.getInstance().getTime());
 		  String local=(new java.io.File("").getAbsolutePath());
-			String data="" + local + "/" + "cadi1.csv";	
+			String data="" + local + "/" + "cadi.csv";	
 			int row=1;
 		BufferedReader br = null;
 		String line = "";
