@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30" started-at="2015-03-04T18:53:40Z" finished-at="2015-03-04T18:53:40Z">
+  <suite name="Default suite" duration-ms="31" started-at="2015-03-06T15:59:27Z" finished-at="2015-03-06T15:59:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30" started-at="2015-03-04T18:53:40Z" finished-at="2015-03-04T18:53:40Z">
-      <class name="mobile.test.RedirectTest">
-        <test-method status="FAIL" signature="main([Ljava.lang.String;)[pri:0, instance:mobile.test.RedirectTest@26b77801]" name="main" duration-ms="17" started-at="2015-03-04T13:53:40Z" finished-at="2015-03-04T13:53:40Z">
+    <test name="Default test" duration-ms="31" started-at="2015-03-06T15:59:27Z" finished-at="2015-03-06T15:59:27Z">
+      <class name="mobile.test.CharminMobileIphone">
+        <test-method status="FAIL" signature="main([Ljava.lang.String;)[pri:0, instance:mobile.test.CharminMobileIphone@e5ddccb]" name="main" duration-ms="18" started-at="2015-03-06T10:59:27Z" finished-at="2015-03-06T10:59:27Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-      </class> <!-- mobile.test.RedirectTest -->
+      </class> <!-- mobile.test.CharminMobileIphone -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

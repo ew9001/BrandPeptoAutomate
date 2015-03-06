@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mobile.test.RedirectTest">
+      <class name="mobile.test.CharminMobileIphone">
         <methods>
           <include name="main" invocation-numbers="0"/>
         </methods>
-      </class> <!-- mobile.test.RedirectTest -->
+      </class> <!-- mobile.test.CharminMobileIphone -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

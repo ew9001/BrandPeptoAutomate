@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -21,18 +22,20 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+
 import ext.test4j.apache.commons.io.FileUtils;
 
-public class CharminMobileIphone {
+public class CharminMobileIphone 
+{
 	
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception
+	{
 		 
-		CharminMobileIphone obj = new CharminMobileIphone();
-		obj.run();
+	
+	
 	 
-	  }
-	 
-	  public void run() throws Exception {
 		  String timeStamp = new SimpleDateFormat("MMdd_HHmmss").format(Calendar.getInstance().getTime());
 		  String local=(new java.io.File("").getAbsolutePath());
 			String data="" + local + "/" + "cadi1.csv";	
@@ -45,65 +48,37 @@ public class CharminMobileIphone {
 		
 		
 		// @SuppressWarnings("deprecation")
+		 @SuppressWarnings("deprecation")
 		WebDriver driver = new IPhoneDriver("http://192.168.2.6:3001/wd/hub/");
-		
+	
 		  //Write a review
 		  
 		 
-		try {
-	 
-			br = new BufferedReader(new FileReader(data));
-			while ((line = br.readLine()) != null) {
-	 
-			        // use comma as separator
-				String[] product = line.split(cvsSplitBy);
-	 
-				System.out.println("{Product [code= " + product[0] 
-	                                 + " , name=" + product[1] + "]");
-				 driver.get(product[0]);
-	
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				
-				 File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-					FileUtils.copyFile(scrFile1, new File("Y://Screenshots/cadi1/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "cadilac.png"));
-					row+=1;
-					
-					driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-					
-					//	
-				//	driver.findElement(By.id('not-there')).then(function(element) {
-					//	  alert('Found an element that was not expected to be there!');
-						///}, function(error) {
-						  //alert('The element was not found, as expected');
-					///	});
-					//((Rotatable) driver).rotate(ScreenOrientation.PORTRAIT);
-					
-					
-			}
 		
-			
-
-			
-	 
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally {
-			if (br != null) {
-				try {
-					br.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-	 
-		System.out.println("Done");
+		//Get scanner instance
+	        Scanner scanner = new Scanner(new File(data));
+	         
+	        //Set the delimiter used in file
+	        scanner.useDelimiter(",");
+	         
+	        //Get all tokens and store them in some data structure
+	        //I am just printing them
+	        while (scanner.hasNext())
+	        {
+	            System.out.print(scanner.next() + "|");
+	            driver.get(scanner.next());
+	            File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+				FileUtils.copyFile(scrFile1, new File("Y://Screenshots/cadi1/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "cadilac.png"));
+				row+=1;
+				
+				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	        }
+	         
+	        //Do not forget to close the scanner 
+	        scanner.close();
+		 
+		 
+		
 	  }
 
 }
