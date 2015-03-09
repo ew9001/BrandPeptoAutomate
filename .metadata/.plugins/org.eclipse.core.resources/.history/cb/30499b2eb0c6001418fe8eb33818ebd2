@@ -347,7 +347,7 @@ public class MobileSwifferLogin {
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.findElement(By.linkText("Logout Continue")).click();
+		        driver.findElement(By.id("phsmartphonebody_0_logOffContinueLink")).click();
 		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
