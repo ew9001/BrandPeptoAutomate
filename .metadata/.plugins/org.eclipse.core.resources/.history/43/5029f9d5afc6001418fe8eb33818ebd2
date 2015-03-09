@@ -330,7 +330,7 @@ public class MobileSwifferLogin {
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.get("http://author.swiffer.pgsitecore.com/en-us/loginpage/new-logout-confirmation");
+		        driver.findElement(By.id("phsmartphoneheader_0_HeaderSideMenu_phsmartphoneheadercrm_0_logOffLink")).click();
 		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		        driver.findElement(By.id("phsmartphonebody_0_submit")).click();
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
