@@ -280,7 +280,7 @@ public class MobileSwifferLogin {
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
-		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4")||browser.equals("mobileHTCOneX"))
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4"))
 		        {	 
 		        	  System.out.println("Inside the loop ? ");
 		        	 name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
@@ -297,7 +297,7 @@ public class MobileSwifferLogin {
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
-		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4")||browser.equals("mobileHTCOneX"))
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4"))
 		        {
 		        	 name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
 				        takeScreenLandscape(name);
@@ -331,7 +331,7 @@ public class MobileSwifferLogin {
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
-		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4")||browser.equals("mobileHTCOneX"))
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4"))
 		        {
 		        	 name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
 				        takeScreenLandscape(name);
@@ -353,7 +353,7 @@ public class MobileSwifferLogin {
 		        //driver.findElement(By.id("phsmartphonebody_0_submit")).click();
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
-		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4")||browser.equals("mobileHTCOneX"))
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4"))
 		        {
 		        	 name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
 				        takeScreenLandscape(name);
@@ -371,7 +371,7 @@ public class MobileSwifferLogin {
 		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
-		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4")||browser.equals("mobileHTCOneX"))
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4"))
 		        {
 		        	 name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
 				        takeScreenLandscape(name);

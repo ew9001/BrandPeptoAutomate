@@ -31,8 +31,8 @@
         </groups>
     </test>
     
-    <test name="Login on mobileHTCOneX">
-        <parameter name="browser" value="mobileHTCOneX"/>
+    <test name="Login on mobileiPhone5S">
+        <parameter name="browser" value="mobileiPhone5S"/>
         <classes>
             <class name="brand.swiffer.MobileSwifferLogin"/>
         </classes>
