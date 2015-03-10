@@ -2475,3 +2475,6 @@ java -ea -classpath /Users/agolubev1/Downloads/eclipse/plugins/org.testng.eclips
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-03-10 10:56:01.590
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/MobileSwifferLogin.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-10 11:29:41.019
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/MobileSwifferLogin.xml]

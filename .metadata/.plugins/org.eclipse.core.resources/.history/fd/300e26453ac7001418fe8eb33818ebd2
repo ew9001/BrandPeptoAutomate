@@ -31,7 +31,18 @@
         </groups>
     </test>
     
-   
+    <test name="Login on mobileHTCOneX">
+        <parameter name="browser" value="mobileHTCOneX"/>
+        <classes>
+            <class name="brand.swiffer.MobileSwifferLogin"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
     
     
 </suite>
