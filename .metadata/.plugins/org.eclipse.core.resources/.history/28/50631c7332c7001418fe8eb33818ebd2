@@ -281,8 +281,7 @@ public class MobileSwifferLogin {
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
 		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileGalaxyS4"))
-		        {	 
-		        	  System.out.println("Inside the loop ? ");
+		        {
 		        	 name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
 				        takeScreenLandscape(name);
 				        System.out.println("Image Name " +name);
