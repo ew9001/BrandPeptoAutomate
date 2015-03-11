@@ -2866,3 +2866,6 @@ java -ea -classpath /Users/agolubev1/Downloads/eclipse/plugins/org.testng.eclips
 
 !ENTRY com.android.ide.eclipse.adt 1 0 2015-03-11 16:29:32.251
 !MESSAGE No valid Android XML Editor Delegate found for file /pepto/tampax_desktop_print.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-03-11 17:33:10.067
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/tampax_production_desktop.xml [Res null, type null]
