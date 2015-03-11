@@ -2,7 +2,7 @@
  
 <suite name="Add to Cart Random Products" verbose="1">
     <parameter name="param" value="Test"/>
-    <test name="ObjectExitTest simple example 1">
+    <test name="ObjectExitTest simple example">
         <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
@@ -15,7 +15,7 @@
         </groups>
     </test>
     
-     <test name="ObjectExitTest simple example 2">
+     <test name="ObjectExitTest simple example">
         <parameter name="browser" value="mobileGalaxyS3"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
