@@ -14,7 +14,18 @@
             </run>
         </groups>
     </test>
-
+    <test name="Add to Cart Galaxy S4 >
+        <parameter name="browser" value="mobileGalaxyS4"/>
+        <classes>
+            <class name="brand.charmin.CharminMobileCart"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
     
      
     
