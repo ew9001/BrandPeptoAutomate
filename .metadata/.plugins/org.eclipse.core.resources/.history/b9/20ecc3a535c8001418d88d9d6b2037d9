@@ -5,7 +5,7 @@
     <test name="ObjectExitTest simple example">
         <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
-            <class name="brand.charmin.CharminAddCartMobile"/>
+            <class name="brand.charmin.CharminMobileCart"/>
         </classes>
  
         <groups>
@@ -18,7 +18,7 @@
      <test name="ObjectExitTest simple example">
         <parameter name="browser" value="mobileGalaxyS3"/>
         <classes>
-            <class name="brand.charmin.CharminAddCartMobile"/>
+            <class name="brand.charmin.CharminMobileCart"/>
         </classes>
  
         <groups>
