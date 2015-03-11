@@ -14,22 +14,19 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class AppiumiPhoneWebDriverDemo {
 
     private String baseUrl;
-    private WebDriver driver;
+	public WebDriver driver = null;
 
     @Before
     public void setup() throws Exception
     {
 
-        WebDriver driver;
-        DesiredCapabilities cap = new DesiredCapabilities();
-        //cap.setCapability("", "");
-        //cap.setCapability("browsername", "");
-        //cap.setCapability("os", "iOS 6.1");
-        cap.setCapability("device", "iPhone Simulator");
-        cap.setCapability("app", "safari");
-
-        driver = new RemoteWebDriver(new URL("http://192.168.2.16:4723/wd/hub"), cap);
-
+    
+    	DesiredCapabilities capabilities = new DesiredCapabilities();
+    	capabilities.setCapability("device", "iPhone");
+    	capabilities.setCapability("udid", "1234567890abcdef");
+    	capabilities.setCapability("bundleid", "com.pkt.iphone.WebViewIphone-cal");
+    	capabilities.setCapability("ipa", "WebViewIphone6.ipa");
+    	driver = new RemoteWebDriver( new URL("http://192.168.2.15:3001/wd/hub"), capabilities);
     baseUrl = "http://www.cnn.com";
 
     }   

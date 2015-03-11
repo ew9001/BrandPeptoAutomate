@@ -28,14 +28,14 @@ public class FirstTest {
 
 	 
 	  DesiredCapabilities capabilities = new DesiredCapabilities();
-	  capabilities.setCapability("device", "iPhone");
-	  capabilities.setCapability("udid", "6a13dd1ae10a2601a27dbbe03b1bfe4d8f4bbce");
-	  capabilities.setCapability("bundleid", "com.pkt.");
-	 // capabilities.setCapability("ipa", "MyiOSApp.ipa");
-	  driver = new RemoteWebDriver( new URL("http://192.168.2.2"), capabilities);
+  	capabilities.setCapability("device", "iPhone");
+  	capabilities.setCapability("udid", "03aad7cc56446be7adccca4988873313ad951969");
+  	capabilities.setCapability("bundleid", "com.pkt.iphone.WebViewIphone-cal");
+  	capabilities.setCapability("ipa", "WebViewIphone6.ipa");
+  	driver = new RemoteWebDriver( new URL("http://192.168.2.6:3001/wd/hub"), capabilities);
 
     System.out.println("App launched");
-
+    driver.get("http://yahoo.com");
   }
 
   @AfterMethod

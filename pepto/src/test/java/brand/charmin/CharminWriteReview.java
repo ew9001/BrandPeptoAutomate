@@ -29,6 +29,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+
 
 public class CharminWriteReview {
 	private static WebDriver driver;
@@ -244,7 +248,7 @@ public class CharminWriteReview {
 		
 		    int lineNumber = 0;
 
-		    br = new BufferedReader(new FileReader(csvFileToRead));  
+		    CsvReader products = new CsvReader("products.csv");
 		    
 		    while ((line = br.readLine()) != null) {
 		  	  
