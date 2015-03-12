@@ -6,7 +6,7 @@
     
      
     
-     <test name="Add to Cart  iPhone 4S">
+     <test name="ObjectExitTest simple example 3">
         <parameter name="browser" value="mobileiPhone4S"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
@@ -18,7 +18,7 @@
             </run>
         </groups>
     </test>
-    <test name="Add to Cart Galaxy S3">
+    <test name="ObjectExitTest simple example 2">
         <parameter name="browser" value="mobileGalaxyS3"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
@@ -31,7 +31,7 @@
         </groups>
     </test>
     
-     <test name="Add to Cart S4">
+     <test name="ObjectExitTest simple example 1">
         <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>

@@ -2,12 +2,8 @@
  
 <suite name="Add to Cart Random Products" verbose="1">
     <parameter name="param" value="Test"/>
-   
-    
-     
-    
-     <test name="Add to Cart  iPhone 4S">
-        <parameter name="browser" value="mobileiPhone4S"/>
+    <test name="ObjectExitTest simple example 1">
+        <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
         </classes>
@@ -18,7 +14,8 @@
             </run>
         </groups>
     </test>
-    <test name="Add to Cart Galaxy S3">
+    
+     <test name="ObjectExitTest simple example 2">
         <parameter name="browser" value="mobileGalaxyS3"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
@@ -31,8 +28,8 @@
         </groups>
     </test>
     
-     <test name="Add to Cart S4">
-        <parameter name="browser" value="mobileGalaxyS4"/>
+     <test name="ObjectExitTest simple example 3">
+        <parameter name="browser" value="mobileiPhone4S"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
         </classes>
