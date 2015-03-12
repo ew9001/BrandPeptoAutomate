@@ -248,7 +248,7 @@ public class CharminWriteReview {
 		
 		    int lineNumber = 0;
 
-	
+		    CsvReader products = new CsvReader("products.csv");
 		    
 		    while ((line = br.readLine()) != null) {
 		  	  
