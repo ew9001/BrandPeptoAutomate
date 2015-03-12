@@ -274,15 +274,10 @@ public class CharminAddCartMobile {
 			     
 			     driver.findElement(By.linkText(product[1])).click();
 			     
-			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			   
 			     
 			     
 			     driver.findElement(By.linkText(product[2])).click();
-			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
 			     name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 			        takeScreenPortrait(name);
