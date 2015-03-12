@@ -295,7 +295,6 @@ public class CharminWriteReview {
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
 		        counter+=1;
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptSecondaryRatingWrite_imgSecondaryRatingStarsOn_1")).click();
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        
 		        WebElement click = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_imgRatingStars']"));
@@ -309,8 +308,6 @@ public class CharminWriteReview {
 		        System.out.println("Image Name " +name);
 		        counter+=1;
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptSecondaryRatingWrite_imgSecondaryRatingStarsOn_1")).click();
-		      
 
 		        
 		   
