@@ -267,7 +267,7 @@ public class CharminAddCartMobile {
 		        Select sel = new Select(driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_ddlQuantity")));
 			     sel.selectByValue(product[3]);
 			     
-			     ((JavascriptExecutor) driver).executeScript("scroll(0,550);");
+			     ((JavascriptExecutor) driver).executeScript("scroll(0,450);");
 			 
 			     
 			    
@@ -294,15 +294,7 @@ public class CharminAddCartMobile {
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 
-				 driver.get("http://author.charmin.pgsitecore.com/en-us/shopping-cart");
 				
-				   driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-					   driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-						 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-						 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
 				 name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 			        takeScreenPortrait(name);

@@ -294,15 +294,7 @@ public class CharminAddCartMobile {
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-				 
-				 driver.get("http://author.charmin.pgsitecore.com/en-us/shopping-cart");
 				
-				   driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-					   driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-						 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-						 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			     
 				 name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 			        takeScreenPortrait(name);

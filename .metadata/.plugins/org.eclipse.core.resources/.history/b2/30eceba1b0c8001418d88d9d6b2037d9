@@ -29,7 +29,7 @@
     </test>
     
      <test name="ObjectExitTest simple example 3">
-        <parameter name="browser" value="mobileiPhone4S"/>
+        <parameter name="browser" value="mobileGalaxyS3"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
         </classes>

@@ -28,18 +28,5 @@
         </groups>
     </test>
     
-     <test name="ObjectExitTest simple example 3">
-        <parameter name="browser" value="mobileiPhone4S"/>
-        <classes>
-            <class name="brand.charmin.CharminAddCartMobile"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
-    
 </suite>
 
