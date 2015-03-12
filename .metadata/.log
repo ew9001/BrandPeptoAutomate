@@ -2881,3 +2881,6 @@ java -ea -classpath /Users/agolubev1/Downloads/eclipse/plugins/org.testng.eclips
 
 !ENTRY com.android.ide.eclipse.adt 1 0 2015-03-12 09:54:33.424
 !MESSAGE No valid Android XML Editor Delegate found for file /pepto/LoginCharmin.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-03-12 10:34:28.200
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/SwifferWriteReview.xml [Res null, type null]

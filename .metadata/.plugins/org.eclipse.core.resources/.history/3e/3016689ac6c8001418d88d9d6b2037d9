@@ -307,7 +307,7 @@ public class SwifferWriteReview {
 
 		        
 		        
-		        WebElement click1 = driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptSecondaryRatingWrite_imgSecondaryRatingStarsOn_1"));
+		        WebElement click1 = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_rptSecondaryRatingWrite_imgSecondaryRatingStarsOn_0']"));
 
 		        click1.click();
 		  
@@ -317,7 +317,7 @@ public class SwifferWriteReview {
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        
-		        WebElement click2 = driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptSecondaryRatingWrite_imgSecondaryRatingStarsOn_0"));
+		        WebElement click2 = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_rptSecondaryRatingWrite_imgSecondaryRatingStarsOn_1']"));
 
 		        click2.click();
 		       
