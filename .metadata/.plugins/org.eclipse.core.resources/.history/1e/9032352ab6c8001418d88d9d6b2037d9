@@ -7,7 +7,7 @@
      
     
      <test name="Add to Cart  iPhone 4S">
-        <parameter name="browser" value="mobileiPhone5S"/>
+        <parameter name="browser" value="mobileiPhone4S"/>
         <classes>
             <class name="brand.charmin.CharminAddCartMobile"/>
         </classes>
