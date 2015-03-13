@@ -20,9 +20,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
@@ -298,10 +296,7 @@ public class CharminWriteReview {
 		        WebElement herbBtn = driver.findElement(By.id("lnkWriteReview"));
 		        
 		        //IE10 fix the click..
-		        WebDriverWait wait = new WebDriverWait(driver, 15);
-		        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Write A Review")));
-
-		     
+		        
 		        driver.findElement(By.linkText("Write A Review")).click();
                 
 
