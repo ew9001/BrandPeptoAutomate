@@ -18,6 +18,62 @@
         </groups>
     </test>
     
+     
+    <test name="Review on browser IE10">
+        <parameter name="browser" value="browserIE10"/>
+        <classes>
+            <class name="brand.swiffer.SwifferWriteReview"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+     
+    <test name="Review on browser Safari">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="brand.swiffer.SwifferWriteReview"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+     
+    <test name="Review on browser Chrome">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="brand.swiffer.SwifferWriteReview"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+     
+    <test name="Review on browser IE11">
+        <parameter name="browser" value="browserIE11"/>
+        <classes>
+            <class name="brand.swiffer.SwifferWriteReview"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
    
     
     

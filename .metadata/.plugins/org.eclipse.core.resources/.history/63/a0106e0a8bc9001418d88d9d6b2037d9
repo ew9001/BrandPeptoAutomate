@@ -1,0 +1,24 @@
+ <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+ 
+<suite name="Write Review " verbose="1">
+    <parameter name="param" value="Test"/>
+    
+    
+    
+    <test name="Review on browser Firefox 34">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="brand.swiffer.SwifferWriteReview"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+   
+    
+    
+</suite>
