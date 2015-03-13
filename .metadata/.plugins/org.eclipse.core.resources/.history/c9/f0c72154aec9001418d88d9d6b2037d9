@@ -411,9 +411,9 @@ public class CharminWriteReview {
 		       // assertTrue(isElementPresent(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit")));
 		        
 		        
-		        WebElement review11= driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit"));
+		        WebElement herbBtn = driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit"));
 
-		        Assert.assertEquals(true, review11.isDisplayed());
+		        Assert.assertEquals(true, herbBtn.isDisplayed());
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit")).click();
 		      
 		        
