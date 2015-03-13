@@ -323,8 +323,7 @@ public class SwifferWriteReview {
 		  //      click2.click();
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptSecondaryRatingWrite_imgSecondaryRatingStars_1")).click();
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).clear();
-		        myTitle = driver.getTitle();
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).sendKeys("QA Automation test for " + myTitle);
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_txtControlForProductReview_0")).sendKeys("QA summary test");
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).clear();
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProductReview_textareaControlForProductReview_1")).sendKeys("Why do we need this product, because this product is the best product to QA!");
 		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_rptProfileInformation_txtControl_0")).clear();
@@ -390,9 +389,7 @@ public class SwifferWriteReview {
 		        System.out.println("Image Name " +name);
 		        takeScreenPortrait(name);
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-		        jse.executeScript("scroll(0, -90000)"); //y value '250' can be altered
-			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     WebElement contBtn = driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnContinue"));
 
