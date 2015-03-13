@@ -363,13 +363,13 @@ public class SwifferWriteReview {
 		        takeScreenPortrait(name);
 		        counter+=1;
 			    
-		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit")).clear();
+		        driver.findElement(By.id("  phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit")).clear();
 		      
 		        
 		        
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Desktop_Submit_Swiffer.png";
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
 		        counter+=1;
@@ -382,23 +382,8 @@ public class SwifferWriteReview {
 		
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			       
-			     driver.findElement(By.id("id=phdesktopbody_0_phdesktopproductratingreview_0_ibtnContinue")).clear();
 		        
-			     
-			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Desktop_Continue_Swiffer.png";
-			        takeScreenPortrait(name);
-			        System.out.println("Image Name " +name);
-			        counter+=1;
-			        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-
-				    
-			        System.out.println("Image Name " +name);
-			        takeScreenPortrait(name);
-			        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
-			
-				     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        
 		        
 		        counter+=1;
 		    
