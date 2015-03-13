@@ -394,10 +394,10 @@ public class AllSwifferWriteReview {
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			//     WebElement contBtn = driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnContinue"));
+			     WebElement contBtn = driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnContinue"));
 
-		//	        Assert.assertEquals(true, contBtn.isDisplayed()); 
-		//	     driver.findElement(By.id("id=phdesktopbody_0_phdesktopproductratingreview_0_ibtnContinue")).click();
+			        Assert.assertEquals(true, contBtn.isDisplayed()); 
+			     driver.findElement(By.id("id=phdesktopbody_0_phdesktopproductratingreview_0_ibtnContinue")).click();
 		        
 			     
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
