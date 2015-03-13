@@ -351,7 +351,7 @@ public class SwifferWriteReview {
 			    
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        JavascriptExecutor jse = (JavascriptExecutor)driver;
-		        jse.executeScript("scroll(0, -90000)"); //y value '250' can be altered
+		        jse.executeScript("scroll(9000, 0)"); //y value '250' can be altered
 		        	   driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
