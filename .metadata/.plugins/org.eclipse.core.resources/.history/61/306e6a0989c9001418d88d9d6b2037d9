@@ -1144,10 +1144,10 @@ public class SwifferWriteReview {
 	    
 		    File screenshot = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
 		  
-		  //  myTitle = driver.getTitle();
+		    myTitle = driver.getTitle();
 		    
 		    
-		//   driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		    
 		 
 		    FileUtils.copyFile(screenshot, new File(name));
@@ -1166,10 +1166,10 @@ public class SwifferWriteReview {
 	    
 		    File screenshot = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
 		  
-		//    myTitle = driver.getTitle();
+		    myTitle = driver.getTitle();
 		    
 		    
-		//    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		    
 		  
 		    FileUtils.copyFile(screenshot, new File(name));
