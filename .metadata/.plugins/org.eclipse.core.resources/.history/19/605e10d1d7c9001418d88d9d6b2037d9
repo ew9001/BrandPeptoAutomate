@@ -290,8 +290,6 @@ public class CharminWriteReview {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        WebElement herbBtn = driver.findElement(By.id("lnkWriteReview"));
 		        
-		        //IE10 fix the click..
-		        
 		        driver.findElement(By.linkText("Write A Review")).click();
                 
 
@@ -300,7 +298,7 @@ public class CharminWriteReview {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		 //       driver.findElement(By.id("lnkWriteReview")).click();
+		        driver.findElement(By.id("lnkWriteReview")).click();
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
