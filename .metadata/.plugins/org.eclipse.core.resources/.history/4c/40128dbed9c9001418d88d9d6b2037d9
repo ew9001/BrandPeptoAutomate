@@ -276,12 +276,7 @@ public class CharminWriteReview {
 		        
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		     
-		        
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		  
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -421,7 +416,10 @@ public class CharminWriteReview {
 		       // assertTrue(isElementPresent(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit")));
 		        
 		        
-		     
+		        WebElement review11= driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit"));
+
+		        Assert.assertEquals(true, review11.isDisplayed());
+		        driver.findElement(By.id("phdesktopbody_0_phdesktopproductratingreview_0_ibtnSubmit")).click();
 		      
 		        
 		        
