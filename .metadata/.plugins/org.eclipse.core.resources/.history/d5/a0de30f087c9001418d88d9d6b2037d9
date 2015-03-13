@@ -379,7 +379,13 @@ public class SwifferWriteReview {
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			       
 		        
-		        
+		        if (browser.equals("mobileiPhone5S")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
+		        {
+		        	
+		        	 name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Scrolled-Capture.png";
+				        System.out.println("Image Name is  " +name);
+				        takeScreenPortrait(name);
+		        }
 		        
 		        counter+=1;
 		    
@@ -1149,7 +1155,11 @@ public class SwifferWriteReview {
 		    
 		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		    
-		 
+		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		    
+		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		    
+		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		    FileUtils.copyFile(screenshot, new File(name));
 		    
 		    return driver;
@@ -1171,7 +1181,11 @@ public class SwifferWriteReview {
 		    
 		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		    
-		  
+		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		    
+		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		    
+		    driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		    FileUtils.copyFile(screenshot, new File(name));
 		   
 		    return driver;
