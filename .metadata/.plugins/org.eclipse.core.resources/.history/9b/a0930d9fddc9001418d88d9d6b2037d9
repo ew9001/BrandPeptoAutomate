@@ -312,9 +312,9 @@ public class CharminWriteReview {
 		        //IE10 fix the click..
 		        WebDriverWait wait = new WebDriverWait(driver, 15);
 		        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Write A Review")));
-		        JavascriptExecutor jse1 = (JavascriptExecutor)driver;
+		        JavascriptExecutor jse = (JavascriptExecutor)driver;
 		      
-		        jse1.executeScript("document.getElementById('lnkWriteReview').focus();");
+		        jse.executeScript("document.getElementById('lnkWriteReview').focus();");
 		        driver.findElement(By.linkText("Write A Review")).click();
                 
 
