@@ -317,19 +317,6 @@ public class CharminWriteReview {
 		        jse1.executeScript("document.getElementById('lnkWriteReview').focus();");
 		        driver.findElement(By.linkText("Write A Review")).click();
                 
-		        
-		        if (browser.equals("browserIE11")||browser.equals("browserIE10"))
-		        		{
-		        	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-				        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-				        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        	
-		        	driver.findElement(By.linkText("Write A Review")).click();
-		        	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-				        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-				        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        	
-		        		}
 
 		        Assert.assertEquals(true, herbBtn.isDisplayed());
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -337,7 +324,7 @@ public class CharminWriteReview {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 //       driver.findElement(By.id("lnkWriteReview")).click();
-		 //       driver.findElement(By.linkText("Write A Review")).click();
+		        driver.findElement(By.linkText("Write A Review")).click();
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
