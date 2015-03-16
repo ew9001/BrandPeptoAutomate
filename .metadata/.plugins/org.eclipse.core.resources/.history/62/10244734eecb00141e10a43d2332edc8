@@ -5,7 +5,7 @@
     
     
     
-    <test name="Review with Tablet iPAD">
+    <test name="Review with  Tablet iPAD">
         <parameter name="browser" value="tabletIpad4thGen7"/>
         <classes>
             <class name="brand.charmin.CharminWriteReview"/>

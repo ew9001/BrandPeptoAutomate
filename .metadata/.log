@@ -2930,3 +2930,6 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-03-16 11:04:29.474
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/AddToCart.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-16 11:07:46.773
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/AddToCart.xml]
