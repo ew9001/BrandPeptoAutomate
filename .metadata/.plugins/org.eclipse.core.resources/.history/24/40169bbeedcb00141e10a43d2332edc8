@@ -5,20 +5,7 @@
     
     
     
-    <test name="Review with  Tablet iPAD">
-        <parameter name="browser" value="tabletIpad4thGen7"/>
-        <classes>
-            <class name="brand.charmin.CharminWriteReview"/>
-        </classes>
- 
-        <groups>
-            <run>
-                <include name="create"/>
-            </run>
-        </groups>
-    </test>
-    
-     <test name="Review with  Firefox">
+    <test name="Review with  Firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="brand.charmin.CharminWriteReview"/>
