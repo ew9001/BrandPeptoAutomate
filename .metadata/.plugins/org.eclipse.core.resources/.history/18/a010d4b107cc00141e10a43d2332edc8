@@ -288,11 +288,7 @@ public class CharminWriteReview {
 			    	//Thread.sleep(1000);
 			    //} changed
 		        
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 		     
 		        
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -320,11 +316,7 @@ public class CharminWriteReview {
 		      
 		        jse1.executeScript("document.getElementById('lnkWriteReview').focus();");
 		        driver.findElement(By.linkText("Write A Review")).click();
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+                
 		        
 		        if (browser.equals("browserIE11")||browser.equals("browserIE10"))
 		        		{
