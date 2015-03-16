@@ -360,9 +360,7 @@ public class CharminWriteReview {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         	
-		        WebElement click1 = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_imgRatingStars']"));
-
-		        click1.click();
+		        click.click();
         	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
