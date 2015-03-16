@@ -5,7 +5,18 @@
     
     
     
-   
+    <test name="Review with Tablet iPAD">
+        <parameter name="browser" value="tabletIpad4thGen7"/>
+        <classes>
+            <class name="brand.charmin.CharminWriteReview"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
     
      <test name="Review with  Firefox">
         <parameter name="browser" value="firefox"/>
@@ -46,7 +57,31 @@
         </groups>
     </test>
     
-   
+    <test name="Review with Chrome">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="brand.charmin.CharminWriteReview"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+    <test name="Review with browser  Safari">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="brand.charmin.CharminWriteReview"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
     
     
 </suite>
