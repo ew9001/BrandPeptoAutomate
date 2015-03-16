@@ -57,7 +57,6 @@ public class CharminWriteReview {
 		String data2="" + local + "/" + "charmin_products.csv";	
 		String myTitle;
 		String csvFileToRead;
-		String toLink;
 	    String safe = "http://10.10.10.34:8080/job/TESTNG3/ws/PageLoads";
 	  @Test(groups = {"create"})
 		@Parameters({"browser"})
@@ -279,8 +278,6 @@ public class CharminWriteReview {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        toLink=driver.getCurrentUrl();
-		        System.out.println("Image Name " + toLink);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
