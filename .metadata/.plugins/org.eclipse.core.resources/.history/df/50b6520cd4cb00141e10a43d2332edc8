@@ -350,20 +350,6 @@ public class CharminWriteReview {
 		        WebElement click = driver.findElement(By.xpath("//*[@id='phdesktopbody_0_phdesktopproductratingreview_0_imgRatingStars']"));
 
 		        click.click();
-		        
-		        if (browser.equals("browserIE11")||browser.equals("browserIE10"))
-        		{
-        	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        	
-		        click.click();
-        	 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        	
-        		}
-		        
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -479,7 +465,13 @@ public class CharminWriteReview {
 		        counter+=1;
 		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
 
-			  
+			    
+		        System.out.println("Image Name " +name);
+		        takeScreenPortrait(name);
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		
+			    
+				     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        
 		        counter+=1;
 		    
