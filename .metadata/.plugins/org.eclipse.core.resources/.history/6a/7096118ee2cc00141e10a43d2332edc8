@@ -3,9 +3,9 @@
 <suite name="Add to Cart" verbose="1">
     <parameter name="param" value="Test"/>
     <test name="ObjectExitTest simple example">
-        <parameter name="browser" value="mobileGalaxyS4"/>
+        <parameter name="browser" value="browserIE11"/>
         <classes>
-            <class name="brand.charmin.CharminMobileCart"/>
+            <class name="brand.pepto.AddCartTest"/>
         </classes>
  
         <groups>
