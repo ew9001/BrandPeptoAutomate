@@ -251,9 +251,7 @@ public class CharminMobileCart<CsvReader> {
 
 		   
 		
-		     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-						 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-						 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		   
 		    
 		    while ((line = br.readLine()) != null) {
 		  	  
