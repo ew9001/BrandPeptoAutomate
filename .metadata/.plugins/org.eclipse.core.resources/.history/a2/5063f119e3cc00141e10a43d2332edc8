@@ -610,7 +610,7 @@ public class CharminMobileCart<CsvReader> {
 	      browser_type="mobileGalaxyS4";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
-	      driver.get("http://author.charmin.pgsitecore.com/en-us");
+	      driver.get("http://uat.metawellness.pgsitecore.com/en-us");
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	      System.out.println(data);
 	      return driver;
