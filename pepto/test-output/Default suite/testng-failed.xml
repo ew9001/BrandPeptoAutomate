@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mobile.test.FirstTest">
+      <class name="brand.charmin.CharminGalaxyS3AddCart">
         <methods>
-          <include name="testCases"/>
-          <include name="setUp"/>
+          <include name="testGoogle"/>
         </methods>
-      </class> <!-- mobile.test.FirstTest -->
+      </class> <!-- brand.charmin.CharminGalaxyS3AddCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
