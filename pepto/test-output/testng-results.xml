@@ -2,24 +2,56 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="517" started-at="2015-03-17T12:50:46Z" finished-at="2015-03-17T12:50:46Z">
+  <suite name="Default suite" duration-ms="311" started-at="2015-03-17T22:11:17Z" finished-at="2015-03-17T22:11:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="517" started-at="2015-03-17T12:50:46Z" finished-at="2015-03-17T12:50:46Z">
+    <test name="Default test" duration-ms="311" started-at="2015-03-17T22:11:17Z" finished-at="2015-03-17T22:11:17Z">
       <class name="brand.charmin.CharminGalaxyS3AddCart">
-        <test-method status="FAIL" signature="testGoogle()[pri:0, instance:brand.charmin.CharminGalaxyS3AddCart@511df625]" name="testGoogle" duration-ms="507" started-at="2015-03-17T08:50:46Z" finished-at="2015-03-17T08:50:46Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="testGoogle()[pri:0, instance:brand.charmin.CharminGalaxyS3AddCart@75846058]" name="testGoogle" duration-ms="298" started-at="2015-03-17T18:11:17Z" finished-at="2015-03-17T18:11:17Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'usnycpww4300', ip: '10.6.12.60', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_51'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:101)
-	at java.io.FileReader.<init>(FileReader.java:58)
-	at brand.charmin.CharminGalaxyS3AddCart.testGoogle(CharminGalaxyS3AddCart.java:54)
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'usnycpww4300', ip: '10.6.12.60', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_51'
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at org.openqa.selenium.android.AndroidDriver.<init>(AndroidDriver.java:81)
+	at org.openqa.selenium.android.AndroidDriver.<init>(AndroidDriver.java:65)
+	at brand.charmin.CharminGalaxyS3AddCart.testGoogle(CharminGalaxyS3AddCart.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.lang.reflect.Method.invoke(Method.java:606)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 8 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogle -->

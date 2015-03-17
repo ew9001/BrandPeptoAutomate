@@ -99,7 +99,7 @@ public class AndroidMobileIphone {
 					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 					 WebElement element = driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart"));
-							element.click() ;
+							element.submit() ;
 					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 					 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	 				

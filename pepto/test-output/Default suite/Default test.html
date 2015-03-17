@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 17 08:50:46 EDT 2015</td>
+<td>Started on:</td><td>Tue Mar 17 18:11:17 EDT 2015</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (517 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (311 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,24 +76,76 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='brand.charmin.CharminGalaxyS3AddCart.testGoogle()'><b>testGoogle</b><br>Test class: brand.charmin.CharminGalaxyS3AddCart</td>
-<td><div><pre>java.lang.NullPointerException
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:101)
-	at java.io.FileReader.&lt;init&gt;(FileReader.java:58)
-	at brand.charmin.CharminGalaxyS3AddCart.testGoogle(CharminGalaxyS3AddCart.java:54)
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.37.0&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-18 09:51:02&apos;
+System info: host: &apos;usnycpww4300&apos;, ip: &apos;10.6.12.60&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:129)
+	at org.openqa.selenium.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:81)
+	at org.openqa.selenium.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:65)
+	at brand.charmin.CharminGalaxyS3AddCart.testGoogle(CharminGalaxyS3AddCart.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.lang.reflect.Method.invoke(Method.java:606)
-</pre></div><a href='#' onClick='toggleBox("stack-trace585223140", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace585223140'><pre>java.lang.NullPointerException
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:101)
-	at java.io.FileReader.&lt;init&gt;(FileReader.java:58)
-	at brand.charmin.CharminGalaxyS3AddCart.testGoogle(CharminGalaxyS3AddCart.java:54)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 8 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1580025618", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1580025618'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.37.0&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-18 09:51:02&apos;
+System info: host: &apos;usnycpww4300&apos;, ip: &apos;10.6.12.60&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:111)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:129)
+	at org.openqa.selenium.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:81)
+	at org.openqa.selenium.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:65)
+	at brand.charmin.CharminGalaxyS3AddCart.testGoogle(CharminGalaxyS3AddCart.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.lang.reflect.Method.invoke(Method.java:606)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:178)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 8 more
 </pre></div></td>
 <td>0</td>
-<td>brand.charmin.CharminGalaxyS3AddCart@511df625</td></tr>
+<td>brand.charmin.CharminGalaxyS3AddCart@75846058</td></tr>
 </table><p>
 </body>
 </html>
