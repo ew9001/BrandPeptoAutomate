@@ -707,7 +707,6 @@ public class CharminLogin {
 		 caps.setCapability("device", "iPad 4th Gen");
 		 caps.setCapability("browserstack.debug", "true");
 		 caps.setCapability("acceptSslCerts", "true");
-		 caps.setCapability("emulator", "true");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run in tablet Ipad4thGen7");
 	     
