@@ -54,7 +54,10 @@ public class AndroidMobileIphone {
 	//	WebDriver driver = new IPhoneDriver("http://192.168.2.4:3001/wd/hub/");
 		//iPhone 4S
 	//	WebDriver driver = new IPhoneDriver("http://192.168.2.15:3001/wd/hub/");
-		  WebDriver driver = new AndroidDriver();
+		DesiredCapabilities caps = DesiredCapabilities.android();
+		caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+
+	    WebDriver driver = new AndroidDriver(caps);
 		  //Write a review
 		  
 		 
