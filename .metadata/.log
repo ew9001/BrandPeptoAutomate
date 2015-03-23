@@ -916,3 +916,6 @@ java -ea -classpath /Users/agolubev1/Downloads/eclipse/plugins/org.testng.eclips
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-03-23 08:06:45.905
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/TampaxProductionLogin.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-03-23 08:13:26.629
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/TampaxProductionLogin.xml]

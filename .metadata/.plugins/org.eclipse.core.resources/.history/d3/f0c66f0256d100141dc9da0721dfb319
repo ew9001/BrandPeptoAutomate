@@ -1,11 +1,11 @@
  <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
-<suite name="Browser Login " verbose="1">
+<suite name="Browser Print " verbose="1">
     <parameter name="param" value="Test"/>
     
     
     
-    <test name="Login on browser Firefox">
+    <test name="Print on browser Firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="tampax.production.TampaxLogin"/>
@@ -18,7 +18,7 @@
         </groups>
     </test>
     
-    <test name="Login on browser  IE10">
+    <test name="Print on browser  IE10">
         <parameter name="browser" value="browserIE10"/>
         <classes>
             <class name="tampax.production.TampaxLogin"/>
@@ -31,7 +31,7 @@
         </groups>
     </test>
     
-    <test name="Login on browser IE11">
+    <test name="Print on browser IE11">
         <parameter name="browser" value="browserIE11"/>
         <classes>
             <class name="tampax.production.TampaxLogin"/>
@@ -44,7 +44,7 @@
         </groups>
     </test>
     
-     <test name="Login on browser Chrome">
+     <test name="Print on browser Chrome">
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="tampax.production.TampaxLogin"/>
@@ -57,7 +57,7 @@
         </groups>
     </test>
     
-         <test name="Login on browser Safari">
+         <test name="Print on browser Safari">
         <parameter name="browser" value="safari"/>
         <classes>
             <class name="tampax.production.TampaxLogin"/>
