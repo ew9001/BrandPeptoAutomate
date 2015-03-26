@@ -67,7 +67,7 @@ public class PuffsLogin {
 		  else if (browser.equals("mobileLGnexus4")) {
 			  driver=mobileLGNexus4();
 			  csvFileToRead = data2;
-			  System.out.println("Data is set  " +data2);
+			  System.out.println("Data is  " +data2);
 			}
 		  else if (browser.equals("tabletKindleFire2")) {
 			  driver=  tabletKindleFire2();
