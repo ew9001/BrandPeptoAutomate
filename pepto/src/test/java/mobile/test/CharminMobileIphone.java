@@ -36,7 +36,7 @@ public class CharminMobileIphone {
 	  public void run() throws Exception {
 		  String timeStamp = new SimpleDateFormat("MMdd_HHmmss").format(Calendar.getInstance().getTime());
 		  String local=(new java.io.File("").getAbsolutePath());
-			String data="" + local + "/" + "all_charmin_products.csv";	
+			String data="" + local + "/" + "all_bounty_products.csv";	
 			int row=1;
 			String browser="iphone5";
 		BufferedReader br = null;
@@ -51,7 +51,7 @@ public class CharminMobileIphone {
 		//WebDriver driver = new IPhoneDriver("http://192.168.2.2:3001/wd/hub/");
 	//	WebDriver driver = new IPhoneDriver("http://192.168.2.4:3001/wd/hub/");
 		//iPhone 4S
-		WebDriver driver = new IPhoneDriver("http://192.168.2.15:3001/wd/hub/");
+		WebDriver driver = new IPhoneDriver("http://192.168.2.2:3001/wd/hub/");
 		
 		  //Write a review
 		  
@@ -88,10 +88,10 @@ public class CharminMobileIphone {
 			   
 			     
 			     
-			     driver.findElement(By.linkText(product[2])).click();
+			    // driver.findElement(By.linkText(product[2])).click();
 			     
 				 File scrFile2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-					FileUtils.copyFile(scrFile2, new File("Y://Screenshots/alik11/landscape/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "charmin.png"));
+					FileUtils.copyFile(scrFile2, new File("Y://Screenshots/bounty/1/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "charmin.png"));
 					row+=1;
 			     driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click();
 			     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -101,7 +101,7 @@ public class CharminMobileIphone {
 			     
 			     
 				 File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-					FileUtils.copyFile(scrFile1, new File("Y://Screenshots/alik11/landscape/"  + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "charmin.png"));
+					FileUtils.copyFile(scrFile1, new File("Y://Screenshots/bounty/1/"  + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "charmin.png"));
 					row+=1;
 					
 					driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

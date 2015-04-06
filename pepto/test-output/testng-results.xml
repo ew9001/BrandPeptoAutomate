@@ -1,13 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14186" started-at="2015-03-20T15:58:58Z" finished-at="2015-03-20T15:59:13Z">
+  <suite name="Default suite" duration-ms="13727" started-at="2015-03-31T19:01:34Z" finished-at="2015-03-31T19:01:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14186" started-at="2015-03-20T15:58:58Z" finished-at="2015-03-20T15:59:13Z">
+    <test name="Default test" duration-ms="13727" started-at="2015-03-31T19:01:34Z" finished-at="2015-03-31T19:01:48Z">
       <class name="mobile.test.OneTest">
-        <test-method status="PASS" signature="testGoogle()[pri:0, instance:mobile.test.OneTest@39f91f44]" name="testGoogle" duration-ms="14174" started-at="2015-03-20T11:58:58Z" finished-at="2015-03-20T11:59:13Z">
+        <test-method status="FAIL" signature="testGoogle()[pri:0, instance:mobile.test.OneTest@e5ddccb]" name="testGoogle" duration-ms="13712" started-at="2015-03-31T15:01:34Z" finished-at="2015-03-31T15:01:48Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_51'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
+System info: host: 'N/A', ip: 'N/A', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_51'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at mobile.test.OneTest.testGoogle(OneTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:682)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 4 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogle -->
