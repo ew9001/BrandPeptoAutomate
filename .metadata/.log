@@ -1587,3 +1587,9 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-04-14 19:08:08.250
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/BountyLogin.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-14 19:27:00.784
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/BountyArticle.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-14 19:27:29.855
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/BountyArticle.xml]
