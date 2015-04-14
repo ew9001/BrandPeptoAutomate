@@ -362,7 +362,7 @@ public class BountyAddCartDesktop {
 		 caps.setCapability("browserstack.debug", "true");
 		 caps.setCapability("browserstack.local", "true");
 		 caps.setCapability("acceptSslCerts", "true");
-	
+		 caps.setCapability("browserstack.localIdentifier", "BountyAddCardDesktop");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run IE11 Browser");
 	      browser_type="browserIE11";
@@ -391,7 +391,7 @@ public class BountyAddCartDesktop {
 		 caps.setCapability("browserstack.debug", "true");
 		 caps.setCapability("browserstack.local", "true");
 		 caps.setCapability("acceptSslCerts", "true");
-	
+		 caps.setCapability("browserstack.localIdentifier", "BountyAddCardDesktop");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run IE10");
 	      browser_type="browserIE10";
@@ -817,7 +817,7 @@ public class BountyAddCartDesktop {
 		 caps.setCapability("acceptSslCerts", "true");
 		 caps.setCapability("browserstack.debug", "true");
 		 caps.setCapability("browserstack.local", "true");
-	
+		 caps.setCapability("browserstack.localIdentifier", "BountyAddCardDesktop");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run Firefox");
 	      driver.get("http://stage.coffee-mate.com/Registration/Create-Account.aspx?email=" + timeStamp +"%40yahoo.com&stt=True");
