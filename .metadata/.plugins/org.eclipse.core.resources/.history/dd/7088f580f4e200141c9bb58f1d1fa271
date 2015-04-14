@@ -368,7 +368,7 @@ public class BountyAddCartDesktop {
 	      browser_type="browserIE11";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
-	      driver.get("http://uat.bountytowels.pgsitecore.com/en-us");
+	      driver.get("http://m.crest.com");
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	      System.out.println(data);
 	      return driver;
@@ -397,7 +397,7 @@ public class BountyAddCartDesktop {
 	      browser_type="browserIE10";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
-	      driver.get("http://uat.bountytowels.pgsitecore.com/en-us");
+	      driver.get("http://nhl.com");
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	      System.out.println(data);
 	      return driver;
@@ -820,7 +820,7 @@ public class BountyAddCartDesktop {
 	
 		    driver = new RemoteWebDriver(new URL(URL), caps);
 	      System.out.println("Let me run Firefox");
-	      driver.get("http://uat.bountytowels.pgsitecore.com/en-us");
+	      driver.get("http://stage.coffee-mate.com/Registration/Create-Account.aspx?email=" + timeStamp +"%40yahoo.com&stt=True");
 	      driver.manage().window().maximize();
 	      return driver;
 	 }
