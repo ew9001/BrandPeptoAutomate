@@ -363,7 +363,7 @@ public class BountyAddCartDesktop {
 		 caps.setCapability("browserstack.local", "true");
 		 caps.setCapability("acceptSslCerts", "true");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
-	      System.out.println("Let me run IE11 Browser");
+	      System.out.println("Let me run IE11");
 	      browser_type="browserIE11";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
