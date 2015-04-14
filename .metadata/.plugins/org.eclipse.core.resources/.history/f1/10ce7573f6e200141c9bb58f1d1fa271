@@ -278,7 +278,7 @@ public class BountyAddCartDesktop {
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
 		        counter+=1;
-		       // driver.findElement(By.id("imgCloseButton")).click();
+		        driver.findElement(By.id("imgCloseButton")).click();
 		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
