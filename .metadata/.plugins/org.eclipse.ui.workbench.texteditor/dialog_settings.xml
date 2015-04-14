@@ -3,18 +3,19 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="263" key="DIALOG_WIDTH"/>
 		<item value="375" key="DIALOG_Y_ORIGIN"/>
-		<item value="1120" key="DIALOG_X_ORIGIN"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="1120" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
 		<item value="" key="selection"/>
 		<list key="findhistory">
+			<item value="author"/>
 			<item value=" iPhone"/>
 			<item value="caps.setCapability(&quot;browserstack.local&quot;, &quot;true&quot;);"/>
 			<item value="tabletIpad"/>
@@ -22,7 +23,6 @@
 			<item value="S5"/>
 			<item value="Galaxy"/>
 			<item value="mobielGalaxyS3"/>
-			<item value="public WebDriver browserIE10()"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>
