@@ -1605,3 +1605,21 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 1 0 2015-04-15 15:19:15.206
 !MESSAGE No valid Android XML Editor Delegate found for file /pepto/CrestLogin.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-15 16:15:17.043
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/MobileSwifferLogin.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-15 16:19:38.616
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/MobileSwifferLogin.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-15 16:19:51.245
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/MobileCrestLogin.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-15 16:20:15.147
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/MobileSwifferLogin.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-15 16:20:18.629
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/MobileCrestLogin.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-15 16:28:38.157
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/MobileCrestLogin.xml]

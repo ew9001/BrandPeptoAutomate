@@ -1,3 +1,4 @@
+
  <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
 <suite name="Browser Login " verbose="1">
@@ -8,7 +9,7 @@
     <test name="Login on browser mobileGalaxyS4">
         <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
-            <class name="brand.swiffer.MobileSwifferLogin"/>
+            <class name="brand.crest.MobileCrestLogin"/>
         </classes>
  
         <groups>
@@ -21,7 +22,22 @@
     <test name="Login on browser  mobileGalaxyS3">
         <parameter name="browser" value="mobileGalaxyS3"/>
         <classes>
-            <class name="brand.swiffer.MobileSwifferLogin"/>
+            <class name="brand.crest.MobileCrestLogin"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+     
+    
+      <test name="Login on browser  mobileiPhone5S">
+        <parameter name="browser" value="mobileiPhone5S"/>
+        <classes>
+            <class name="brand.crest.MobileCrestLogin"/>
         </classes>
  
         <groups>
