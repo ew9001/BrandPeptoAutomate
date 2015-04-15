@@ -1602,3 +1602,6 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-04-15 09:54:06.776
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/BountyReview.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-15 15:19:15.206
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/CrestLogin.xml [Res null, type null]
