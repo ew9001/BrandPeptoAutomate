@@ -21,14 +21,14 @@ public class OneTest  {
 	public void testGoogle() throws Exception {
     WebDriver driver = new AndroidDriver();
     int row=1;
-    String browser="GalaxyS5";
+    String browser="GalaxyS3";
     String timeStamp ="mobile";
     // And now use this to visit Google
-    driver.get("http://uat.crest.pgsitecore.com/en-us/search-page?term=Complete White#gridview");
+    driver.get("http://author.crest.pgsitecore.com/en-us/products/crest-pro-health-sensi-stop-strips");
     
     // Find the text input element by its name
-   // WebElement element = driver.findElement(By.name("q"));
-    
+   WebElement element = driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkWriteAReview"));
+    element.click();
     // Enter something to search for
    // element.sendKeys("Cheese!");
     
@@ -40,14 +40,14 @@ public class OneTest  {
     
     
 	 File scrFile2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrFile2, new File("Y://Screenshots/GalaxyS5/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "crest1.png"));
+		FileUtils.copyFile(scrFile2, new File("Y://Screenshots/GalaxyS5/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "crest_homepage.png"));
 		row+=1;
 		
 	    System.out.println("Rotate: ");
-	    Thread.sleep(1000);
+	    Thread.sleep(4000);
 		 
 		 File scrFile3 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(scrFile3, new File("Y://Screenshots/GalaxyS5/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "crest.png"));
+			FileUtils.copyFile(scrFile3, new File("Y://Screenshots/GalaxyS5/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "crest_homepage_rotate.png"));
 			row+=1;
 		 
 		 

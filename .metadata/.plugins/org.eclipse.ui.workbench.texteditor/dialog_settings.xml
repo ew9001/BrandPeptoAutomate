@@ -3,28 +3,32 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="263" key="DIALOG_WIDTH"/>
 		<item value="375" key="DIALOG_Y_ORIGIN"/>
-		<item value="1120" key="DIALOG_X_ORIGIN"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="1120" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="IE11" key="selection"/>
+		<item value="iPhone5" key="selection"/>
 		<list key="findhistory">
-			<item value="IE11"/>
-			<item value="browserstack.local"/>
-			<item value="browserstack"/>
-			<item value="local"/>
-			<item value="author"/>
-			<item value=" iPhone"/>
-			<item value="caps.setCapability(&quot;browserstack.local&quot;, &quot;true&quot;);"/>
-			<item value="tabletIpad"/>
+			<item value="iPhone5"/>
+			<item value="brand.swiffer.SwifferWriteReview"/>
+			<item value="Swiffer"/>
+			<item value="Print on"/>
+			<item value="brand.swiffer.SwifferLogin"/>
+			<item value="Close"/>
+			<item value="Firefox"/>
+			<item value="IE10"/>
 		</list>
 		<list key="replacehistory">
+			<item value="brand.bounty.BountyWriteReview"/>
+			<item value="Bounty"/>
+			<item value="Bounty Desktop Login with "/>
+			<item value="brand.bounty.BountyLogin"/>
 			<item value=""/>
 			<item value="Login with browser "/>
 			<item value="brand.tampax.production.ArticlesPrint"/>
