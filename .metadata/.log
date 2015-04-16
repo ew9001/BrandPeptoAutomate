@@ -1773,3 +1773,6 @@ java -ea -classpath /Users/agolubev1/Downloads/eclipse/plugins/org.testng.eclips
 
 !ENTRY com.android.ide.eclipse.adt 1 0 2015-04-16 18:35:59.166
 !MESSAGE No valid Android XML Editor Delegate found for file /pepto/BountyAddCartDesktop.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-16 18:50:00.810
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/BountyAddCartDesktop.xml]
