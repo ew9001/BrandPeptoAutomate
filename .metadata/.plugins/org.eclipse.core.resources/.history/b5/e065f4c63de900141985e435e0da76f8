@@ -8,7 +8,7 @@
    
  
     
-    <test name="mobileGalaxyS4">
+    <test name="Review with IE11">
         <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
             <class name="brand.tampax.production.BountyAddCart"/>
