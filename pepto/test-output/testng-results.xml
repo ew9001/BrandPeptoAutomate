@@ -1,55 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6018" started-at="2015-04-20T18:57:45Z" finished-at="2015-04-20T18:57:51Z">
+  <suite name="Default suite" duration-ms="4" started-at="2015-04-22T15:19:05Z" finished-at="2015-04-22T15:19:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6018" started-at="2015-04-20T18:57:45Z" finished-at="2015-04-20T18:57:51Z">
-      <class name="mobile.test.OneTest">
-        <test-method status="FAIL" signature="testGoogle()[pri:0, instance:mobile.test.OneTest@4b3bf9ce]" name="testGoogle" duration-ms="5999" started-at="2015-04-20T14:57:45Z" finished-at="2015-04-20T14:57:51Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[java.lang.Double cannot be cast to java.lang.Long
-Command duration or timeout: 323 milliseconds
-Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
-System info: host: 'usnycpww4300', ip: '10.6.6.142', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_51'
-Session ID: 762114cd-9745-40c4-a991-263dc2f8d6c4
-Driver info: org.openqa.selenium.android.AndroidDriver
-Capabilities [{platform=ANDROID, acceptSslCerts=true, javascriptEnabled=true, handlesAlerts=true, browserName=android, browserConnectionEnabled=true, webStorageEnabled=true, hasTouchScreen=true, rotatable=true, locationContextEnabled=true, applicationCacheEnabled=true, webdriver.remote.sessionid=762114cd-9745-40c4-a991-263dc2f8d6c4, takesScreenshot=true, version=19}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.lang.Double cannot be cast to java.lang.Long
-Command duration or timeout: 323 milliseconds
-Build info: version: '2.37.0', revision: 'a7c61cbd68657e133ae96672cf995890bad2ee42', time: '2013-10-18 09:51:02'
-System info: host: 'usnycpww4300', ip: '10.6.6.142', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_51'
-Session ID: 762114cd-9745-40c4-a991-263dc2f8d6c4
-Driver info: org.openqa.selenium.android.AndroidDriver
-Capabilities [{platform=ANDROID, acceptSslCerts=true, javascriptEnabled=true, handlesAlerts=true, browserName=android, browserConnectionEnabled=true, webStorageEnabled=true, hasTouchScreen=true, rotatable=true, locationContextEnabled=true, applicationCacheEnabled=true, webdriver.remote.sessionid=762114cd-9745-40c4-a991-263dc2f8d6c4, takesScreenshot=true, version=19}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at mobile.test.OneTest.testGoogle(OneTest.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.rebuildServerError(ErrorHandler.java:227)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:107)
-	... 6 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGoogle -->
-      </class> <!-- mobile.test.OneTest -->
+    <test name="Default test" duration-ms="4" started-at="2015-04-22T15:19:05Z" finished-at="2015-04-22T15:19:05Z">
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

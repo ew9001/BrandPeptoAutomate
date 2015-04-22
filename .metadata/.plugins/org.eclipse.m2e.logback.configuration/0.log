@@ -3400,3 +3400,95 @@
 2015-04-21 16:55:33,829 [Worker-1126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
 2015-04-21 16:55:33,831 [Worker-1126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2015-04-21 16:55:33,831 [Worker-1126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-04-22 11:06:21,368 [Worker-1266] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.trihonda.test:request.quote:0.0.1-SNAPSHOT @ /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/pom.xml.
+2015-04-22 11:06:21,980 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/2.1.0/selenium-java-2.1.0.pom
+2015-04-22 11:06:22,046 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/2.1.0/selenium-java-2.1.0.pom
+2015-04-22 11:06:22,077 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-parent/2.1.0/selenium-parent-2.1.0.pom
+2015-04-22 11:06:22,158 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-parent/2.1.0/selenium-parent-2.1.0.pom
+2015-04-22 11:06:22,231 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-android-driver/2.1.0/selenium-android-driver-2.1.0.pom
+2015-04-22 11:06:22,381 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-android-driver/2.1.0/selenium-android-driver-2.1.0.pom
+2015-04-22 11:06:22,406 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.1.0/selenium-remote-driver-2.1.0.pom
+2015-04-22 11:06:22,458 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/2.1.0/selenium-remote-driver-2.1.0.pom
+2015-04-22 11:06:22,493 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.1.0/selenium-api-2.1.0.pom
+2015-04-22 11:06:22,601 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.1.0/selenium-api-2.1.0.pom
+2015-04-22 11:06:22,682 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.1.0/selenium-chrome-driver-2.1.0.pom
+2015-04-22 11:06:22,836 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.1.0/selenium-chrome-driver-2.1.0.pom
+2015-04-22 11:06:22,861 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.1.0/selenium-htmlunit-driver-2.1.0.pom
+2015-04-22 11:06:22,986 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.1.0/selenium-htmlunit-driver-2.1.0.pom
+2015-04-22 11:06:23,053 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.1.0/selenium-firefox-driver-2.1.0.pom
+2015-04-22 11:06:23,135 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/2.1.0/selenium-firefox-driver-2.1.0.pom
+2015-04-22 11:06:23,230 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.1.0/selenium-ie-driver-2.1.0.pom
+2015-04-22 11:06:23,272 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.1.0/selenium-ie-driver-2.1.0.pom
+2015-04-22 11:06:23,298 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/java/dev/jna/jna/3.2.3/jna-3.2.3.pom
+2015-04-22 11:06:23,327 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/java/dev/jna/jna/3.2.3/jna-3.2.3.pom
+2015-04-22 11:06:23,354 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-iphone-driver/2.1.0/selenium-iphone-driver-2.1.0.pom
+2015-04-22 11:06:23,394 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-iphone-driver/2.1.0/selenium-iphone-driver-2.1.0.pom
+2015-04-22 11:06:23,473 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/2.1.0/selenium-support-2.1.0.pom
+2015-04-22 11:06:23,520 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/2.1.0/selenium-support-2.1.0.pom
+2015-04-22 11:06:24,321 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/2.1.0/selenium-java-2.1.0.jar
+2015-04-22 11:06:24,826 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/2.1.0/selenium-java-2.1.0.jar
+2015-04-22 11:06:24,887 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-android-driver/2.1.0/selenium-android-driver-2.1.0.jar
+2015-04-22 11:06:24,992 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-android-driver/2.1.0/selenium-android-driver-2.1.0.jar
+2015-04-22 11:06:25,018 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.1.0/selenium-chrome-driver-2.1.0.jar
+2015-04-22 11:06:25,081 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/2.1.0/selenium-chrome-driver-2.1.0.jar
+2015-04-22 11:06:25,229 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.1.0/selenium-htmlunit-driver-2.1.0.jar
+2015-04-22 11:06:25,319 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-htmlunit-driver/2.1.0/selenium-htmlunit-driver-2.1.0.jar
+2015-04-22 11:06:25,475 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.1.0/selenium-api-2.1.0.jar
+2015-04-22 11:06:25,709 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/2.1.0/selenium-api-2.1.0.jar
+2015-04-22 11:06:25,740 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit/2.8/htmlunit-2.8.jar
+2015-04-22 11:06:26,668 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit/2.8/htmlunit-2.8.jar
+2015-04-22 11:06:26,680 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.0.1/httpmime-4.0.1.jar
+2015-04-22 11:06:26,721 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.0.1/httpmime-4.0.1.jar
+2015-04-22 11:06:26,735 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/james/apache-mime4j/0.6/apache-mime4j-0.6.jar
+2015-04-22 11:06:27,114 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/james/apache-mime4j/0.6/apache-mime4j-0.6.jar
+2015-04-22 11:06:27,136 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.8/htmlunit-core-js-2.8.jar
+2015-04-22 11:06:28,319 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.8/htmlunit-core-js-2.8.jar
+2015-04-22 11:06:28,330 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.14/nekohtml-1.9.14.jar
+2015-04-22 11:06:28,653 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.14/nekohtml-1.9.14.jar
+2015-04-22 11:06:28,692 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar
+2015-04-22 11:06:30,138 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar
+2015-04-22 11:06:30,192 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.1.0/selenium-ie-driver-2.1.0.jar
+2015-04-22 11:06:33,106 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/2.1.0/selenium-ie-driver-2.1.0.jar
+2015-04-22 11:06:33,131 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/net/java/dev/jna/jna/3.2.3/jna-3.2.3.jar
+2015-04-22 11:06:36,215 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/net/java/dev/jna/jna/3.2.3/jna-3.2.3.jar
+2015-04-22 11:06:36,302 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-iphone-driver/2.1.0/selenium-iphone-driver-2.1.0.jar
+2015-04-22 11:06:36,451 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-iphone-driver/2.1.0/selenium-iphone-driver-2.1.0.jar
+2015-04-22 11:06:36,473 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/2.1.0/selenium-support-2.1.0.jar
+2015-04-22 11:06:36,712 [Worker-1266] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/2.1.0/selenium-support-2.1.0.jar
+2015-04-22 11:06:36,875 [Worker-1266] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.trihonda.test:request.quote:0.0.1-SNAPSHOT @ /Users/agolubev1/Desktop/QAAprroved/request.quote/pom.xml.
+2015-04-22 11:06:37,212 [Worker-1266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:06:37,212 [Worker-1266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-04-22 11:06:37,213 [Worker-1266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:06:37,213 [Worker-1266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-04-22 11:06:38,463 [Worker-1274] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:06:38,464 [Worker-1274] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-04-22 11:06:38,465 [Worker-1274] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:06:38,465 [Worker-1274] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-04-22 11:06:38,833 [Worker-1274] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:06:38,834 [Worker-1274] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/QAAprroved/request.quote/src/main/resources
+2015-04-22 11:06:38,835 [Worker-1274] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:06:38,835 [Worker-1274] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/QAAprroved/request.quote/src/test/resources
+2015-04-22 11:07:56,851 [Worker-1279] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:07:56,851 [Worker-1279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-04-22 11:07:56,852 [Worker-1279] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:07:56,852 [Worker-1279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-04-22 11:15:32,552 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:15:32,552 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-04-22 11:15:32,553 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 11:15:32,554 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-04-22 16:44:36,016 [Worker-1301] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 16:44:36,017 [Worker-1301] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-04-22 16:44:36,018 [Worker-1301] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 16:44:36,018 [Worker-1301] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-04-22 17:21:06,080 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 17:21:06,080 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-04-22 17:21:06,081 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 17:21:06,081 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-04-22 17:24:19,077 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 17:24:19,077 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-04-22 17:24:19,078 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 17:24:19,079 [Worker-1323] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources
+2015-04-22 17:25:23,734 [Worker-1316] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 17:25:23,734 [Worker-1316] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/main/resources
+2015-04-22 17:25:23,736 [Worker-1316] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-04-22 17:25:23,736 [Worker-1316] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/src/test/resources

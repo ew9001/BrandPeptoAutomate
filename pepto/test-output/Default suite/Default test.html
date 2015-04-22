@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Apr 20 14:57:45 EDT 2015</td>
+<td>Started on:</td><td>Wed Apr 22 11:19:05 EDT 2015</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6018 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (4 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,67 +67,5 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='mobile.test.OneTest.testGoogle()'><b>testGoogle</b><br>Test class: mobile.test.OneTest</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: java.lang.Double cannot be cast to java.lang.Long
-Command duration or timeout: 323 milliseconds
-Build info: version: &apos;2.37.0&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-18 09:51:02&apos;
-System info: host: &apos;usnycpww4300&apos;, ip: &apos;10.6.6.142&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_51&apos;
-Session ID: 762114cd-9745-40c4-a991-263dc2f8d6c4
-Driver info: org.openqa.selenium.android.AndroidDriver
-Capabilities [{platform=ANDROID, acceptSslCerts=true, javascriptEnabled=true, handlesAlerts=true, browserName=android, browserConnectionEnabled=true, webStorageEnabled=true, hasTouchScreen=true, rotatable=true, locationContextEnabled=true, applicationCacheEnabled=true, webdriver.remote.sessionid=762114cd-9745-40c4-a991-263dc2f8d6c4, takesScreenshot=true, version=19}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at mobile.test.OneTest.testGoogle(OneTest.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.rebuildServerError(ErrorHandler.java:227)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:107)
-	... 6 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1459527028", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1459527028'><pre>org.openqa.selenium.WebDriverException: java.lang.Double cannot be cast to java.lang.Long
-Command duration or timeout: 323 milliseconds
-Build info: version: &apos;2.37.0&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-18 09:51:02&apos;
-System info: host: &apos;usnycpww4300&apos;, ip: &apos;10.6.6.142&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_51&apos;
-Session ID: 762114cd-9745-40c4-a991-263dc2f8d6c4
-Driver info: org.openqa.selenium.android.AndroidDriver
-Capabilities [{platform=ANDROID, acceptSslCerts=true, javascriptEnabled=true, handlesAlerts=true, browserName=android, browserConnectionEnabled=true, webStorageEnabled=true, hasTouchScreen=true, rotatable=true, locationContextEnabled=true, applicationCacheEnabled=true, webdriver.remote.sessionid=762114cd-9745-40c4-a991-263dc2f8d6c4, takesScreenshot=true, version=19}]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
-	at mobile.test.OneTest.testGoogle(OneTest.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Long
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
-	at org.openqa.selenium.remote.ErrorHandler.rebuildServerError(ErrorHandler.java:227)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:107)
-	... 6 more
-</pre></div></td>
-<td>5</td>
-<td>mobile.test.OneTest@4b3bf9ce</td></tr>
-</table><p>
 </body>
 </html>

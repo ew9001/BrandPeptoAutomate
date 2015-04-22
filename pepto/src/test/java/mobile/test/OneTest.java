@@ -4,13 +4,13 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import junit.framework.TestCase;
-
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.android.AndroidDriver;
+
 import org.testng.annotations.Test;
 
 import ext.test4j.apache.commons.io.FileUtils;
@@ -19,7 +19,7 @@ public class OneTest  {
 
     @Test
 	public void testGoogle() throws Exception {
-    WebDriver driver = new AndroidDriver();
+    	WebDriver driver = new RemoteWebDriver(DesiredCapabilities.android());
     int row=1;
     String browser="GalaxyS3";
     String timeStamp ="mobile";
