@@ -484,7 +484,7 @@ public class BountyAddCart {
 		 caps.setCapability("acceptSslCerts", "true");
 		 caps.setCapability("deviceOrientation", "landscape");
 		    driver = new RemoteWebDriver(new URL(URL), caps);
-	      System.out.println("Let me run mobileGalaxyS4");
+	      System.out.println("Let me run mobileGalaxyS3");
 	      browser_type="mobileGalaxyS4";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
