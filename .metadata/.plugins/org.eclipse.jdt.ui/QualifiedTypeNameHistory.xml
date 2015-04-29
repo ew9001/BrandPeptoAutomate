@@ -13,4 +13,8 @@
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
 <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="io.selendroid.standalone.SelendroidLauncher"/>
+<fullyQualifiedTypeName name="io.selendroid.standalone.SelendroidConfiguration"/>
+<fullyQualifiedTypeName name="io.selendroid.client.SelendroidDriver"/>
+<fullyQualifiedTypeName name="io.selendroid.common.SelendroidCapabilities"/>
 </qualifiedTypeNameHistroy>

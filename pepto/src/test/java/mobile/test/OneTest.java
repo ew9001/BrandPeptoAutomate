@@ -4,13 +4,13 @@ import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import junit.framework.TestCase;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.android.AndroidDriver;
-
 import org.testng.annotations.Test;
 
 import ext.test4j.apache.commons.io.FileUtils;
@@ -19,16 +19,16 @@ public class OneTest  {
 
     @Test
 	public void testGoogle() throws Exception {
-    	WebDriver driver = new RemoteWebDriver(DesiredCapabilities.android());
+    WebDriver driver = new AndroidDriver();
     int row=1;
     String browser="GalaxyS3";
     String timeStamp ="mobile";
     // And now use this to visit Google
-    driver.get("http://author.crest.pgsitecore.com/en-us/products/crest-pro-health-sensi-stop-strips");
+    driver.get("http://author.crest.pgsitecore.com/en-us");
     
     // Find the text input element by its name
-   WebElement element = driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkWriteAReview"));
-    element.click();
+   // WebElement element = driver.findElement(By.name("q"));
+    
     // Enter something to search for
    // element.sendKeys("Cheese!");
     
@@ -40,14 +40,14 @@ public class OneTest  {
     
     
 	 File scrFile2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrFile2, new File("Y://Screenshots/GalaxyS5/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "crest_homepage.png"));
+		FileUtils.copyFile(scrFile2, new File("Y://Screenshots/GalaxyS15/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "crest_homepage.png"));
 		row+=1;
 		
 	    System.out.println("Rotate: ");
-	    Thread.sleep(4000);
+	    Thread.sleep(4000000);
 		 
 		 File scrFile3 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(scrFile3, new File("Y://Screenshots/GalaxyS5/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "crest_homepage_rotate.png"));
+			FileUtils.copyFile(scrFile3, new File("Y://Screenshots/GalaxyS15/" + browser +"/" + timeStamp +  "/" + row + "-" + timeStamp + "-" + "crest_homepage_rotate.png"));
 			row+=1;
 		 
 		 
