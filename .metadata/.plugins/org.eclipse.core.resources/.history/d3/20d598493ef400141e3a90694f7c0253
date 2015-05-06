@@ -274,7 +274,9 @@ public class AndroidCrestArticle {
 		        takeScreenPortrait(name);
 		        System.out.println("Image Name " +name);
 		       
-		       
+		        driver.manage().timeouts().implicitlyWait(450000, TimeUnit.SECONDS);
+		        driver.get("http://author.pepto-bismol.pgsitecore.com/en-us/shopping-cart");
+			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			        
 		        
 		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
@@ -447,7 +449,7 @@ public class AndroidCrestArticle {
 	      browser_type="mobileGalaxyS4";
 	      System.out.println("Let me see which one get tested" +browser_type);
 	      System.out.println("Let me see which one get tested" +driver);
-	      driver.get("http://author.crest.pgsitecore.com/en-us");
+	      driver.get("http://uat.metawellness.pgsitecore.com/en-us");
 	      driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	      System.out.println(data);
 	      return driver;
