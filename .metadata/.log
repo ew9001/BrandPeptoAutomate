@@ -243,3 +243,6 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 13:33:12.988
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/CrestArticlePrintDesktop.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-07 13:44:15.214
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/CrestArticlePrintDesktop.xml]
