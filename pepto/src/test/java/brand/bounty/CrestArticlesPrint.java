@@ -1,4 +1,4 @@
-package brand.crest;
+package brand.bounty;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -42,8 +42,8 @@ public class CrestArticlesPrint {
 		static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 	    int counter=1;
 		String local=(new java.io.File("").getAbsolutePath());
-		String data="" + local + "/" + "url_link.csv";	
-		String data2="" + local + "/" + "url_link.csv";	
+		String data="" + local + "/" + "content2.csv";	
+		String data2="" + local + "/" + "content2.csv";	
 		String myTitle;
 		String csvFileToRead;
 	    String safe = "http://10.10.10.34:8080/job/TESTNG3/ws/PageLoads";
@@ -276,7 +276,7 @@ public class CrestArticlesPrint {
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.findElement(By.id("phdesktopbody_0_phdesktopprint_0_anchrPrint")).click(); 
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			        driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
 			        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
 			        takeScreenPortrait(name);
 			        System.out.println("Image Name " +name);
