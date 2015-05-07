@@ -49,7 +49,7 @@ public class AndroidCrestArticle {
 		String data2="" + local + "/" + "all_24_links.csv";	
 		String myTitle;
 		String csvFileToRead;
-	    String safe = "http://10.10.10.34:8080/job/TESTNG33/ws/PageLoads";
+	    String safe = "http://10.10.10.34:8080/job/TESTNG3/ws/PageLoads";
 	  @Test(groups = {"create"})
 		@Parameters({"browser"})
 	  @BeforeClass
