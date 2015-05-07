@@ -40,7 +40,7 @@ public class AndroidCrestArticle {
 	 
 	  public String browser_type;
 	  public String fail,error,url,rotate;
-	  public String baseUrl = "http://stage.coffee-mate.com/en";
+	  public String baseUrl = "http://stage.coffee-mate.com/";
 		
 		static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 	    int counter=1;
