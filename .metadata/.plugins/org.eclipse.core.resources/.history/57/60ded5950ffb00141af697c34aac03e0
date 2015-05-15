@@ -273,7 +273,6 @@ public class AndroidCrestCart {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        
 		        driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click(); 
-		        driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click(); 
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
