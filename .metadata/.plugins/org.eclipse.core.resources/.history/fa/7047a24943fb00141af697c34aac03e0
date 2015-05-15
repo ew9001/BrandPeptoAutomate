@@ -296,7 +296,7 @@ public class AndroidCrestCart {
 		        }
 
                
-                               driver.findElement(By.className("main-nav-name")).click();
+                driver.findElement(By.linkText(" Product Details")).click();
                 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
