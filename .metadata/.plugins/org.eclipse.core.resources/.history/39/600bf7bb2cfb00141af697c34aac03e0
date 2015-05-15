@@ -274,28 +274,6 @@ public class AndroidCrestCart {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Went to product landing-portrait.png";
-		        takeScreenPortrait(name);
-		        System.out.println("Image Name " +name);
-		       
-		       
-			        
-		        
-		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
-		        {
-		        	name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Went to product landing-landscape.png";
-			        takeScreenPortrait(name);
-			        System.out.println("Image Name " +name);
-			        
-		        }
-		        
-		        
 		        driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click(); 
 		     
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
