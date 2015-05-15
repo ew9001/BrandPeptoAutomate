@@ -352,7 +352,7 @@ public class AndroidCrestCart {
 		        
 		        
 		        
-		        driver.findElement(By.linkText("EDIT")).click();
+		        driver.findElement(By.linkText("Remove")).click();
 		        
 		        
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -378,9 +378,7 @@ public class AndroidCrestCart {
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.findElement(By.linkText("SAVE")).click();
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		     
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
