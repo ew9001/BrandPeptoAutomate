@@ -376,7 +376,6 @@ public class AndroidCrestCart {
 		        }
 		        
 		        driver.findElement(By.linkText("REMOVE")).click();
-		        driver.findElement(By.linkText("REMOVE")).click();
 		        counter+=1; 
 		    
 
