@@ -274,3 +274,9 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-05-15 10:04:33.070
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/CrestArticleTest.xml]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-05-15 10:18:10.950
+!MESSAGE No valid Android XML Editor Delegate found for file /pepto/CrestMobileCartProduct.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-15 10:18:37.416
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/CrestMobileCartProduct.xml]
