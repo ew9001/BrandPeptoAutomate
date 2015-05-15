@@ -297,24 +297,8 @@ public class AndroidCrestCart {
 
                
                 driver.findElement(By.linkText(" Product Details")).click();
-                driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		    //    driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click(); 
+		        
+		        driver.findElement(By.id("phsmartphonebody_0_phsmartphoneproductprimarycontentarea_0_lnkAddToCart")).click(); 
 		     
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -343,7 +327,7 @@ public class AndroidCrestCart {
 			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			        
-			   //     driver.get("http://author.crest.pgsitecore.com/en-us/shopping-cart");
+			        driver.get("http://author.crest.pgsitecore.com/en-us/shopping-cart");
 
 			     
 		       
@@ -369,7 +353,70 @@ public class AndroidCrestCart {
 		        
 		        
 		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.get("http://author.crest.pgsitecore.com/en-us/shopping-cart");
 		        
+		        
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-portrait.png";
+		        takeScreenPortrait(name);
+		        System.out.println("Image Name " +name);
+		       
+		       
+			        
+		        
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
+		        {
+		        	name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Added-to-cart.png";
+			        takeScreenPortrait(name);
+			        System.out.println("Image Name " +name);
+			        
+		        }
+		        
+		        
+		        
+		        driver.findElement(By.linkText("EDIT")).click();
+		        
+		        
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        name=""+ browser+"/portrait/" + browser +"_"+ counter + "_" + "Successful-Completed-EDIT-portrait.png";
+		        takeScreenPortrait(name);
+		        System.out.println("Image Name " +name);
+		       
+		       
+			        
+		        
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
+		        {
+		        	name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Added-EDIT.png";
+			        takeScreenPortrait(name);
+			        System.out.println("Image Name " +name);
+			        
+		        }
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.findElement(By.linkText("SAVE")).click();
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.findElement(By.linkText("REMOVE")).click();
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		        counter+=1; 
 		    
 
