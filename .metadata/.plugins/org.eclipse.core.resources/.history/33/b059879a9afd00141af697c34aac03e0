@@ -8,7 +8,7 @@
     <test name="Test Galaxy S4">
         <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
-            <class name="brand.crest.MobileCrestURL/>
+            <class name="brand.crest.MobileCrestTest/>
         </classes>
  
         <groups>
@@ -21,7 +21,7 @@
     <test name="Test iPhone 5">
         <parameter name="browser" value="mobileiPhone5"/>
         <classes>
-            <class name="brand.crest.MobileCrestURL/>
+            <class name="brand.crest.MobileCrestTest/>
         </classes>
  
         <groups>
