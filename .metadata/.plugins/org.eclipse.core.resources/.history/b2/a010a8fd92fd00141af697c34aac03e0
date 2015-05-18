@@ -287,7 +287,7 @@ public class MobileCrestURL {
 		       
 			        
 		        
-		        if (browser.equals("mobileGalaxyS4"))
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
 		        	name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Went to product landing-landscape.png";
 			        takeScreenPortrait(name);
@@ -359,7 +359,7 @@ public class MobileCrestURL {
 		       
 			        
 		        
-		        if (browser.equals("mobileGalaxyS4"))
+		        if (browser.equals("mobileGalaxyS4")||browser.equals("mobileiPhone4S")||browser.equals("mobileiPhone5")||browser.equals("mobileiPhone5C")||browser.equals("tabletKindleFire2")||browser.equals("tabletKindleFireHD"))
 		        {
 		        	name=""+ browser+"/landscape/" + browser +"_"+ counter + "_" + "Successful-Completed-Capture-landscape.png";
 			        takeScreenPortrait(name);
