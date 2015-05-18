@@ -1,11 +1,14 @@
  <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
-<suite name="Add to Cart" verbose="1">
+<suite name="Browser Print " verbose="1">
     <parameter name="param" value="Test"/>
-    <test name="ObjectExitTest simple example">
-        <parameter name="browser" value="firefox"/>
+    
+    
+    
+    <test name="S4 Test">
+        <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
-            <class name="brand.crest.MobileCrestURL"/>
+            <class name="brand.crest.AndroidCrestCart"/>
         </classes>
  
         <groups>
@@ -14,4 +17,8 @@
             </run>
         </groups>
     </test>
+    
+    
+    
+    
 </suite>

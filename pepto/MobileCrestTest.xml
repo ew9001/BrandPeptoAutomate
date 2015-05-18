@@ -1,0 +1,33 @@
+ <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+ 
+<suite name="Add to Cart" verbose="1">
+    <parameter name="param" value="Test"/>
+    <test name="Testing Android S4>
+        <parameter name="browser" value="mobileGalaxyS4"/>
+        <classes>
+            <class name="brand.crest.MobileCrestURL"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+    
+    <test name="Testing iPhone 5">
+        <parameter name="browser" value="mobileGalaxyS4"/>
+        <classes>
+            <class name="brand.crest.MobileCrestURL"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+    
+</suite>
