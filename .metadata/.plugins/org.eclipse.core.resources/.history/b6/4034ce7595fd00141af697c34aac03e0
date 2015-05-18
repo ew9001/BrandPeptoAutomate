@@ -1,14 +1,11 @@
  <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
-<suite name="Browser Login " verbose="1">
+<suite name="Add to Cart" verbose="1">
     <parameter name="param" value="Test"/>
-    
-    
-    
-    <test name="Test Galaxy S4">
+    <test name="Testing Android S4>
         <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
-            <class name="brand.crest.MobileCrestTest/>
+            <class name="brand.crest.MobileCrestURL"/>
         </classes>
  
         <groups>
@@ -18,10 +15,11 @@
         </groups>
     </test>
     
-    <test name="Test iPhone 5">
-        <parameter name="browser" value="mobileiPhone5"/>
+    
+    <test name="Testing iPhone 5">
+        <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
-            <class name="brand.crest.MobileCrestTest/>
+            <class name="brand.crest.MobileCrestURL"/>
         </classes>
  
         <groups>
@@ -30,8 +28,6 @@
             </run>
         </groups>
     </test>
-    
-    
     
     
 </suite>
