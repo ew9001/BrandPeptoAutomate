@@ -1,0 +1,37 @@
+ <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+ 
+<suite name="Browser Login " verbose="1">
+    <parameter name="param" value="Test"/>
+    
+    
+    
+    <test name="Test Galaxy S4">
+        <parameter name="browser" value="mobileGalaxyS4"/>
+        <classes>
+            <class name="brand.crest.MobileCrestURL/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+    <test name="Test iPhone 5 ">
+        <parameter name="browser" value="mobileiPhone5"/>
+        <classes>
+            <class name="brand.crest.MobileCrestURL/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+    
+    
+    
+</suite>
