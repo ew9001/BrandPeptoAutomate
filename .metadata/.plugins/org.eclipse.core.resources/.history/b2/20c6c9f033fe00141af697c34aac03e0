@@ -16,7 +16,7 @@
     </test>
     
     <test name="iPhone 5">
-        <parameter name="browser" value="mobileiPhone5S"/>
+        <parameter name="browser" value="mobileiPhone5"/>
         <classes>
             <class name="brand.crest.MobileCrestURL"/>
         </classes>
