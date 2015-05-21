@@ -18,7 +18,7 @@
         </groups>
     </test>
 
-     <test name="Crest Link Checker with  browser Firefox">
+     <test name="Crest Link Checker with  browser IE">
         <parameter name="browser" value="Chrome"/>
         <classes>
             <class name="brand.bounty.BountyLogin"/>
@@ -31,7 +31,7 @@
         </groups>
     </test>
 
-     <test name="Crest Link Checker with  browser Firefox">
+     <test name="Crest Link Checker with  browser Safari">
         <parameter name="browser" value="safari"/>
         <classes>
             <class name="brand.bounty.BountyLogin"/>
