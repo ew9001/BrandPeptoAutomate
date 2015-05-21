@@ -514,3 +514,6 @@ java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfigu
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2015-05-21 11:22:24.487
 !MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/LinkChecker.xml]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-05-21 11:31:10.197
+!MESSAGE No projects found for [/Users/agolubev1/Desktop/BrandPeptoAutomate/pepto/LinkChecker.xml]
