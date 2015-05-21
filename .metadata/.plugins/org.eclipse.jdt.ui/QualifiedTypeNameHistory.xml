@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="org.junit.After"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.CapabilityType"/>
@@ -17,4 +16,6 @@
 <fullyQualifiedTypeName name="io.selendroid.standalone.SelendroidConfiguration"/>
 <fullyQualifiedTypeName name="io.selendroid.client.SelendroidDriver"/>
 <fullyQualifiedTypeName name="io.selendroid.common.SelendroidCapabilities"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

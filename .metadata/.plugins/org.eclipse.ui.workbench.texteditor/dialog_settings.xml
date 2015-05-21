@@ -3,28 +3,29 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="263" key="DIALOG_WIDTH"/>
 		<item value="468" key="DIALOG_Y_ORIGIN"/>
-		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="1347" key="DIALOG_X_ORIGIN"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
 		<item value="IE10" key="selection"/>
 		<list key="findhistory">
 			<item value="IE10"/>
-			<item value="mobileGalaxyS4"/>
 			<item value="firefox"/>
+			<item value="Bounty Desktop Login"/>
+			<item value="mobileGalaxyS4"/>
 			<item value="iPhone5"/>
 			<item value="brand.swiffer.SwifferWriteReview"/>
 			<item value="Swiffer"/>
 			<item value="Print on"/>
-			<item value="brand.swiffer.SwifferLogin"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Crest Link Checker"/>
 			<item value="brand.bounty.BountyWriteReview"/>
 			<item value="Bounty"/>
 			<item value="Bounty Desktop Login with "/>
