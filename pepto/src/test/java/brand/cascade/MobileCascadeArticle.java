@@ -828,6 +828,7 @@ public class MobileCascadeArticle {
 		 iPhoneCaps.setCapability("device", "iPhone 5S");
 		 iPhoneCaps.setCapability("browserstack.debug", "true");
 		 iPhoneCaps.setCapability("rotatable", true);
+		  iPhoneCaps.setCapability("emulator", true);
 		 iPhoneCaps.setCapability("deviceOrientation","landscape");
 		 iPhoneCaps.setCapability("browserstack.local", "true");
 		 iPhoneCaps.setCapability("acceptSslCerts", "true");

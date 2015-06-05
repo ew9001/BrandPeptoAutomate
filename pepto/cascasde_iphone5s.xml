@@ -1,0 +1,33 @@
+ <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+ 
+<suite name="Screenshots Desktop" verbose="1">
+    <parameter name="param" value="Test"/>
+    <test name="ObjectExitTest simple example">
+        <parameter name="browser" value="browserIE11"/>
+        <classes>
+            <class name="brand.cascade.MobileCascadeArticle"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+   
+    
+     <test name="ObjectExitTest simple example 3">
+        <parameter name="browser" value="mobileiPhone5S"/>
+        <classes>
+            <class name="brand.cascade.MobileCascadeArticle"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+    
+    
+</suite>
