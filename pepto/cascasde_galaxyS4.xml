@@ -1,8 +1,22 @@
  <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
  
-<suite name="Links for Galaxy S4" verbose="1">
+<suite name="Screenshots Desktop" verbose="1">
     <parameter name="param" value="Test"/>
     <test name="ObjectExitTest simple example">
+        <parameter name="browser" value="browserIE10"/>
+        <classes>
+            <class name="brand.cascade.MobileCascadeArticle"/>
+        </classes>
+ 
+        <groups>
+            <run>
+                <include name="create"/>
+            </run>
+        </groups>
+    </test>
+   
+    
+     <test name="ObjectExitTest simple example 3">
         <parameter name="browser" value="mobileGalaxyS4"/>
         <classes>
             <class name="brand.cascade.MobileCascadeArticle"/>
@@ -14,4 +28,6 @@
             </run>
         </groups>
     </test>
+    
+    
 </suite>
